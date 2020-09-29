@@ -1,7 +1,3 @@
-Promotion.joins(:category).
-         where(["lft>=? and rgt<=?", c.lft, c.rgt]).
-         joins(:shops).
-         where(:promotions_per_shops => { :shop_id => shops_id }).
-         count('id', :distinct => true)
-
-:help ctags
+assign_attributes
+yum -y install gcc mysql-devel ruby-devel rubygems
+gem install -y mysql -- --with-mysql-config=/usr/bin/mysql_config
