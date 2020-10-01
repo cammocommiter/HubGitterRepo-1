@@ -1,3 +1,5 @@
-<td><%= link_to "Edit", edit_user_item_path(@user, item) %></td>
+gem uninstall nokogiri
+xcode-select --install
+gem install nokogiri
 
-<%= [*5..30].sample %>
+float
