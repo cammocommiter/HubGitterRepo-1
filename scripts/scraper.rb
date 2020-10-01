@@ -1,3 +1,3 @@
-first('.item').click_link('Agree')
+File.expand_path('../../Gemfile', __FILE__)
 
-my_hash.each { |k, v| my_hash[k] = v.upcase } 
+if owner.is_a? thing //worked fine
