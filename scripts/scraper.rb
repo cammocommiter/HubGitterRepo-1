@@ -1,2 +1,3 @@
-instance_variables
-validates_format_of :email,:with => /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/
+puts Gem.loaded_specs["activesupport"].version
+
+.after
