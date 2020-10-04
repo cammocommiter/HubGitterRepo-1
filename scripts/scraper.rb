@@ -1,3 +1,2 @@
-current_user
->> "àáâãäå".mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,'').downcase.to_s
-=> "aaaaaa"
+ruby 2.0.0p0 (2013-02-24)
+['12','34','35','231'].join(', ')
