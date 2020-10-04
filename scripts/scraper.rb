@@ -1,2 +1,2 @@
-ri
-objects.sort_by {|obj| obj.attribute}
+abs
+\config\deploy.rb
