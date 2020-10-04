@@ -1,2 +1,4 @@
-foo[0...100]
-rake db -T -A
+  :peanut   :butter   :and   :jelly
+0         1         2      3        4
+
+exit-program
