@@ -1,5 +1,5 @@
-parsed_url = URI.parse(url)
-http = Net::HTTP.new(parsed_url.host, parsed_url.port)
-http.use_ssl = true
+named_scope :admin, (lambda do |company_id| 
+  {:conditions => ['company_id = ?', company_id]}
+end)
 
-(end_date - start_date).to_i
+gem 'rack-utf8_sanitizer'
