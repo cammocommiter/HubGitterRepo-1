@@ -1,2 +1,2 @@
-<%
-libjson-ruby
+bundle exec
+each_with_index
