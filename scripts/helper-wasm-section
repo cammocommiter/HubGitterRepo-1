@@ -1,5 +1,2 @@
-rails destroy controller lalala
-rails destroy model yadayada
-rails destroy scaffold hohoho
-
-Gemfile.lock
+soap/wsdlDriver
+Set#each
