@@ -1,50 +1,12 @@
-require 'benchmark'
+car = {:make => "bmw", :year => "2003"}
+# => {:make=>"bmw", :year=>"2003"}
+car.to_json
+# NoMethodError: undefined method `to_json' for {:make=>"bmw", :year=>"2003"}:Hash
+#   from (irb):11
+#   from /usr/bin/irb:12:in `<main>'
+require 'json'
+# => true
+car.to_json
+# => "{"make":"bmw","year":"2003"}"
 
-class A
-  def test
-    10.times do
-      yield
-    end
-  end
-end
-
-class B
-  def test(&block)
-    10.times do
-      block.call
-    end
-  end
-end
-
-Benchmark.bm do |b|
-  b.report do
-    a = A.new
-    10000.times do
-      a.test{ 1 + 1 }
-    end
-  end
-
-  b.report do
-    a = B.new
-    10000.times do
-      a.test{ 1 + 1 }
-    end
-  end
-
-  b.report do
-    a = A.new
-    100000.times do
-      a.test{ 1 + 1 }
-    end
-  end
-
-  b.report do
-    a = B.new
-    100000.times do
-      a.test{ 1 + 1 }
-    end
-  end
-
-end
-
-return
+self.class.whatever
