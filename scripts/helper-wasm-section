@@ -1,3 +1,2 @@
-change_column :users, :column, :string, :limit => 255
-
-lib/ext/string.rb
+<%
+libjson-ruby
