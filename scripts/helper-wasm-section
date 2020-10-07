@@ -1,2 +1,2 @@
-bundle exec
-each_with_index
+libjson-ruby
+2.5
