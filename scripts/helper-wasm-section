@@ -1,5 +1,3 @@
-named_scope :admin, (lambda do |company_id| 
-  {:conditions => ['company_id = ?', company_id]}
-end)
+gem 'selenium-webdriver', '2.25.0'
 
-gem 'rack-utf8_sanitizer'
+shadowing_lvar_gen
