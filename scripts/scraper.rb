@@ -1,6 +1,5 @@
-case item
-when MyClass
-...
+gem "therubyracer"
+gem "less-rails"
+gem "twitter-bootstrap-rails"
 
-update_without_callbacks
-create_without_callbacks
+Factory.after_ hooks
