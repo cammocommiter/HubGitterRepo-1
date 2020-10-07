@@ -1,2 +1,2 @@
-&.
-instance_{eval|exec}
+File.directory?("name")
+brew install imagemagick --disable-openmp
