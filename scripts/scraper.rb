@@ -1,2 +1,2 @@
-ActionController::API
-Enumerable
+&.
+instance_{eval|exec}
