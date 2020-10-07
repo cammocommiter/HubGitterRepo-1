@@ -1,9 +1,6 @@
-all : usera userb userc....
+case item
+when MyClass
+...
 
-usera:
-       imapsync usera
-userb:
-       imapsync userb
-....
-
-{}
+update_without_callbacks
+create_without_callbacks
