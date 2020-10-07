@@ -1,3 +1,2 @@
-file.puts @string
-
-TestClass.instance_methods
+ActionController::API
+Enumerable
