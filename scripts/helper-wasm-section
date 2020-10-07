@@ -1,2 +1,5 @@
-libjson-ruby
-2.5
+parsed_url = URI.parse(url)
+http = Net::HTTP.new(parsed_url.host, parsed_url.port)
+http.use_ssl = true
+
+(end_date - start_date).to_i
