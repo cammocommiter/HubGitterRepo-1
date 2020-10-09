@@ -1,4 +1,2 @@
-ReactDOM
-def set_property(obj, prop_name, prop_value)
-    obj.send("#{prop_name}=",prop_value)
-end
+title
+rvm get stable
