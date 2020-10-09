@@ -1,5 +1,3 @@
-Rails.env == "production"
-
-Rails.env == "development"
-
-Rake::Task['your_task'].invoke
+exists?
+def self.method_name
+end
