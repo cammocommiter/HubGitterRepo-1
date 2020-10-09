@@ -1,3 +1,2 @@
-exists?
-def self.method_name
-end
+true
+parameters
