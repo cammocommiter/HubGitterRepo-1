@@ -1,2 +1,2 @@
-give_me_a_valid_model
-Report.joins(:servers).where(:servers => {:company_id => 5})
+attr_accessor
+SELECT COUNT(DISTINCT date) FROM records
