@@ -1,6 +1,2 @@
-<%= link_to 'Destroy', post_comment_path(@post, comment),
-            data: {:confirm => 'Are you sure?'}, :method => :delete %>
-
-011-123-555-1212
-+11-123-555-1212
-+1 (112) 355-5121 x2
+/usr/local
+gem 'thin'
