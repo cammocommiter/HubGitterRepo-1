@@ -1,2 +1,2 @@
-yield
-map
+give_me_a_valid_model
+Report.joins(:servers).where(:servers => {:company_id => 5})
