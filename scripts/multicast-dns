@@ -1,6 +1,3 @@
-class Person
-  attr_accessor :age
-  ...
-end
+a.sort
 
-(0...8).map { (65 + rand(26)).chr }.join
+core_ext
