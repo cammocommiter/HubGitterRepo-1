@@ -1,2 +1,10 @@
-::new
-begin <code> end while <condition>
+class A
+end
+
+class B < A
+end
+
+B.superclass # => A
+B.superclass.name # => "A"
+
+brew info memcached
