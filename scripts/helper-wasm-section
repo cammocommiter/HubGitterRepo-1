@@ -1,2 +1,2 @@
-next
--v
+::new
+begin <code> end while <condition>
