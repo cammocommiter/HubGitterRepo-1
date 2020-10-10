@@ -1,4 +1,6 @@
-gem install sass
-X.each_with_index do |item, index|
-  puts "current_index: #{index}"
+class Person
+  attr_accessor :age
+  ...
 end
+
+(0...8).map { (65 + rand(26)).chr }.join
