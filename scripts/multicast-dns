@@ -1,1 +1,4 @@
-def this; end
+gem install sass
+X.each_with_index do |item, index|
+  puts "current_index: #{index}"
+end
