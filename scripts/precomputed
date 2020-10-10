@@ -1,3 +1,2 @@
-object.send(:foo) # same as object.foo
-
-cannot find -lgmp
+repost
+to_i
