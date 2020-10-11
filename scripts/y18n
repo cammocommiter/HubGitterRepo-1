@@ -1,2 +1,5 @@
-attr_accessor
-SELECT COUNT(DISTINCT date) FROM records
+auth = {:username => "test", :password => "test"}
+@blah = HTTParty.get("http://twitter.com/statuses/public_timeline.json", 
+                     :basic_auth => auth)
+
+XCode
