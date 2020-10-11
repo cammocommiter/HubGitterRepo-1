@@ -1,3 +1,4 @@
-find("option[value='20120905']").click
+> 208 % 11
+=> 10
 
-require mygem
+bundle config github.https true
