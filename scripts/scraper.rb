@@ -1,9 +1,4 @@
-FOO = 18
-private_constant :FOO
+foo.each_slice(3).to_a
+#=> [["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"], ["10"]]
 
-string lastItem = list[list.Count - 1];
-foreach (string item in list) {
-    if (item != lastItem)
-        Console.WriteLine("Looping: " + item);
-    else    Console.Writeline("Lastone: " + item);
-}
+m spec/my_spec.rb:25
