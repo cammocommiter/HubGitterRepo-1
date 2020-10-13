@@ -1,4 +1,3 @@
-foo.each_slice(3).to_a
-#=> [["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"], ["10"]]
+gem "whatever"
 
-m spec/my_spec.rb:25
+ruby -e 'puts $:'
