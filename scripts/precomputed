@@ -1,16 +1,7 @@
-class Booking < ActiveRecord::Base
-  has_many   :booking_payments
-  ....
-  def destroy
-    raise "Cannot delete booking with payments" unless booking_payments.count == 0
-    # ... ok, go ahead and destroy
-    super
+lambda
+users.each_with_index do |u, index|
+  # some code
+  if index == users.size - 1
+    # code for the last user
   end
-end
-
-begin
-  this_will_fail!
-rescue Failure => error
-  log.error error.message
-  raise
 end
