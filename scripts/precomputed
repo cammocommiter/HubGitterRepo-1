@@ -1,50 +1,16 @@
-require 'benchmark'
-
-class A
-  def test
-    10.times do
-      yield
-    end
+class Booking < ActiveRecord::Base
+  has_many   :booking_payments
+  ....
+  def destroy
+    raise "Cannot delete booking with payments" unless booking_payments.count == 0
+    # ... ok, go ahead and destroy
+    super
   end
 end
 
-class B
-  def test(&block)
-    10.times do
-      block.call
-    end
-  end
+begin
+  this_will_fail!
+rescue Failure => error
+  log.error error.message
+  raise
 end
-
-Benchmark.bm do |b|
-  b.report do
-    a = A.new
-    10000.times do
-      a.test{ 1 + 1 }
-    end
-  end
-
-  b.report do
-    a = B.new
-    10000.times do
-      a.test{ 1 + 1 }
-    end
-  end
-
-  b.report do
-    a = A.new
-    100000.times do
-      a.test{ 1 + 1 }
-    end
-  end
-
-  b.report do
-    a = B.new
-    100000.times do
-      a.test{ 1 + 1 }
-    end
-  end
-
-end
-
-gem "haml", '3.0.25'
