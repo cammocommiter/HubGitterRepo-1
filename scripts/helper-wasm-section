@@ -1,2 +1,2 @@
-gemspec
-flash[:success]
+describe
+respond_to_missing?
