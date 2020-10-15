@@ -1,3 +1,2 @@
-h.sort_by {|k,v| v}.reverse
-
-ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
+-O
+fold
