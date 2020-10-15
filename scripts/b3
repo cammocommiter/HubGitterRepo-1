@@ -1,2 +1,2 @@
-File.dirname(__FILE__)
-%q
+each
+~/.bashrc
