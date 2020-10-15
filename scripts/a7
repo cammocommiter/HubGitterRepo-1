@@ -1,6 +1,6 @@
-@comments = Comment.find(:all,
-        :joins => "forum_topics",
-        :conditions => ["forum_topics.featured = ? ", true] 
-        )
+create_table :my_table, id: false do |t|
+  t.string :key_column
+  t.string :value_column
+end
 
-`sleep --help`
+Goto symbol
