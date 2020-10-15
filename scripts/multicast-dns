@@ -1,11 +1,2 @@
-#!/usr/bin/ruby
-
-begin
-  system("stty raw -echo")
-  str = STDIN.getc
-ensure
-  system("stty -raw echo")
-end
-p str.chr
-
-\r
+false
+((date_2 - date_1) / 3600).round
