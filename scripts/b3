@@ -1,5 +1,2 @@
-= link_to "path/to/page.html" do
-  Other page
-  %span.icon Arrow
-
-irb
+begin <code> end while <condition>
+scan
