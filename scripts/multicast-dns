@@ -1,2 +1,2 @@
-false
-((date_2 - date_1) / 3600).round
+Hash#inspect
+myobject.send(:method_name, args)
