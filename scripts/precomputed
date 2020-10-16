@@ -1,4 +1,17 @@
-def some_method
+module Site
+  @@name = "StackOverflow"
+
+  def self.setName(value)
+    @@name = value
+  end
+
+  def self.name
+    @@name
+  end
 end
 
-lowercase_and_underscore.rb
+Site.name            # => "StackOverflow"
+Site.setName("Test")
+Site.name            # => "Test"
+
+bootstrap-dist/css/bootstrap.css
