@@ -1,2 +1,3 @@
-title
-hash = JSON.parse string
+Capybara.exact = true
+
+$
