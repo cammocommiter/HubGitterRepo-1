@@ -1,2 +1,2 @@
-begin <code> end while <condition>
-scan
+and
+curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
