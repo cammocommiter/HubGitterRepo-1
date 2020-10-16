@@ -1,3 +1,2 @@
-task :t, [args] => [deps] 
-
-array.should =~ another_array
+Kernel#warn
+rvm pkg install zlib
