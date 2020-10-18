@@ -1,1 +1,8 @@
-def this; end
+begin
+  this_will_fail!
+rescue Failure => error
+  log.error error.message
+  raise
+end
+
+product
