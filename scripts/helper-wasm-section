@@ -1,3 +1,2 @@
-gem 'selenium-webdriver', '2.25.0'
-
-instance_variable_get
+authenticity_token
+%w(foo bar)
