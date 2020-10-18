@@ -1,8 +1,22 @@
-export http_proxy=http://user:password@host:port
-export HTTP_PROXY=$http_proxy
+app/
+  models/
+    question/
+      document.rb
+    answer.rb
+    document.rb
+    question.rb
 
-require 'ostruct'
-tempData = {"a" => 100, "here" => 200, "c" => "hello"}
-os = OpenStruct.new tempData
-os.a #=> 100
-os.here #=> 200
+# Set up standard output as a StringIO object.
+foo = StringIO.new
+$stdout = foo
+
+# Send some text to $stdout.
+puts 'hi'
+puts 'bye'
+
+# Access the data written to standard output.
+$stdout.string
+# => "hi\nbye\n"
+
+# Send your captured output to the original output stream.
+STDOUT.puts $stdout.string
