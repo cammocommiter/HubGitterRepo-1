@@ -1,7 +1,3 @@
-class String
-  def initial
-    self[0,1]
-  end
-end
+Challenge.find_by_id(10)
 
-fold
+%d/%b/%Y:%H:%M:%S %Z
