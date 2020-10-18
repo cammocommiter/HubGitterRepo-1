@@ -1,2 +1,8 @@
-package control
-schema_migrations
+export http_proxy=http://user:password@host:port
+export HTTP_PROXY=$http_proxy
+
+require 'ostruct'
+tempData = {"a" => 100, "here" => 200, "c" => "hello"}
+os = OpenStruct.new tempData
+os.a #=> 100
+os.here #=> 200
