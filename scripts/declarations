@@ -1,2 +1,3 @@
-Kernel#warn
-rvm pkg install zlib
+gem install nokogiri -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libxml2
+
+class
