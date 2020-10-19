@@ -1,6 +1,6 @@
-RubyVM::InstructionSequence.compile_option = {
-  :tailcall_optimization => true,
-  :trace_instruction => false
-}
+!
+ages = { 'Bruce' => 32, 'Clark' => 28 }
+mappings = { 'Bruce' => 'Bruce Wayne', 'Clark' => 'Clark Kent' }
 
-$HOME
+ages.transform_keys(&mappings.method(:[]))
+#=> { 'Bruce Wayne' => 32, 'Clark Kent' => 28 }
