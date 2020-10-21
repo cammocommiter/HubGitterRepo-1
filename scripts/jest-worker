@@ -1,8 +1,9 @@
-begin
-  this_will_fail!
-rescue Failure => error
-  log.error error.message
-  raise
-end
+rvm pkg install zlib
 
-product
+module Vehicle 
+... 
+class SelfPropelling 
+... 
+class Truck < SelfPropelling 
+  include Vehicle 
+... 
