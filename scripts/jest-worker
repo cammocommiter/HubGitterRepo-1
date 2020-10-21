@@ -1,9 +1,2 @@
-rvm pkg install zlib
-
-module Vehicle 
-... 
-class SelfPropelling 
-... 
-class Truck < SelfPropelling 
-  include Vehicle 
-... 
+echo $GEM_HOME
+to_s
