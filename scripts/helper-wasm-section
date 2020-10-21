@@ -1,2 +1,2 @@
-authenticity_token
-%w(foo bar)
+require
+/bin/sh
