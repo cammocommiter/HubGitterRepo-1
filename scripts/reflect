@@ -1,22 +1,3 @@
-app/
-  models/
-    question/
-      document.rb
-    answer.rb
-    document.rb
-    question.rb
+endDate - beginDate 
 
-# Set up standard output as a StringIO object.
-foo = StringIO.new
-$stdout = foo
-
-# Send some text to $stdout.
-puts 'hi'
-puts 'bye'
-
-# Access the data written to standard output.
-$stdout.string
-# => "hi\nbye\n"
-
-# Send your captured output to the original output stream.
-STDOUT.puts $stdout.string
+gpg
