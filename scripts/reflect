@@ -1,3 +1,2 @@
-endDate - beginDate 
-
-gpg
+[*foo]
+require 'sidekiq/api'
