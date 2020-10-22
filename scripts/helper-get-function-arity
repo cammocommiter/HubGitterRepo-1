@@ -1,5 +1,6 @@
-$ ruby --help
-[...]
-  -W[level]       set warning level; 0=silence, 1=medium, 2=verbose (default)
-
-log/
+make install
+a = b = c = d = "test"
+b << "x"
+=> "testx"
+a
+=> "testx"
