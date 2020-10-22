@@ -1,6 +1,8 @@
-make install
-a = b = c = d = "test"
-b << "x"
-=> "testx"
-a
-=> "testx"
+h = { :$in => array }
+h = { :'a.b' => 'c' }
+h[:s] = 42
+
+>> str = '[\w\s]+'
+ => "[\\w\\s]+" 
+>> Regexp.new str
+ => /[\w\s]+/ 
