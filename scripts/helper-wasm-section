@@ -1,2 +1,3 @@
-require
-/bin/sh
+@search_query = @search_query.gsub(/[^0-9a-z ]/i, '')
+
+!
