@@ -1,3 +1,5 @@
-[1..-1]
+array.map!(&:to_s)
 
-ld: library not found for -lssl
+Error: Xcode alone is not sufficient on Sierra.
+Install the Command Line Tools:
+xcode-select --install 
