@@ -1,3 +1,2 @@
-@post.attributes
-
-a1
+pretty_generate()
+::new
