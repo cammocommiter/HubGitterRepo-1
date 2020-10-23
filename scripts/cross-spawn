@@ -1,1 +1,6 @@
-def this; end
+require "net/http"
+url = URI.parse("http://www.google.com/")
+req = Net::HTTP.new(url.host, url.port)
+res = req.request_head(url.path)
+
+portslist: '[{"name":"ob1","port_type" ... }]'
