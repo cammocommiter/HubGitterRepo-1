@@ -1,10 +1,8 @@
-Foo = String
+respond_to do |format|
 
-development:
-  adapter: postgresql
-  encoding: unicode
-  database: blog_development
-  pool: 5
-  username: blog
-  password:
-  host: localhost
+  format.html # show.html.erb
+  format.json { render json: @user }
+
+ end
+
+Mysql2::Error This connection is still waiting for a result
