@@ -1,2 +1,7 @@
-and
-curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
+f = Nokogiri::XML.fragment(str)
+
+f.search('.//img').remove
+puts f
+
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
