@@ -1,5 +1,3 @@
-array.map!(&:to_s)
+str.split(' ', 2)
 
-Error: Xcode alone is not sufficient on Sierra.
-Install the Command Line Tools:
-xcode-select --install 
+<%= render :partial => 'form', :locals => { :item => @item } %>
