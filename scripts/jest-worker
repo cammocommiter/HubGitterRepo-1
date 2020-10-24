@@ -1,2 +1,2 @@
-brew install ruby
-tags.map(&:name.to_proc).join(' ')
+before_validation
+round(double precision, integer)
