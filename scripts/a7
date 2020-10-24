@@ -1,5 +1,2 @@
-  def self.down
-      remove_column :users, :client_id
-  end
-
-gem 'rack-utf8_sanitizer'
+__add__
+||
