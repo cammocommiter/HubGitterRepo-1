@@ -1,7 +1,16 @@
-f = Nokogiri::XML.fragment(str)
+class Foo
+  private
+  def bar(value)
+    puts "value = #{value}"
+  end
+end
 
-f.search('.//img').remove
-puts f
+f = Foo.new
+begin
+  f.bar("This won't work")
+rescue Exception=>e
+  puts "That didn't work: #{e}"
+end
+f.instance_eval{ bar("But this does") }
 
-git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+ruby
