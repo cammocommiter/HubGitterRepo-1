@@ -1,2 +1,2 @@
-echo $GEM_HOME
-to_s
+brew install ruby
+tags.map(&:name.to_proc).join(' ')
