@@ -1,2 +1,2 @@
-tags.map(&:name.to_proc).join(' ')
-brew install ruby
+xcode-select
+mysql
