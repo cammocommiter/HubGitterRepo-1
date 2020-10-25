@@ -1,3 +1,2 @@
-@search_query = @search_query.gsub(/[^0-9a-z ]/i, '')
-
-!
+require
+sudo apt-get install libmysql-ruby libmysqlclient-dev
