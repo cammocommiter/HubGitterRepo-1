@@ -1,16 +1,6 @@
-class Foo
-  private
-  def bar(value)
-    puts "value = #{value}"
-  end
-end
+%i{foo bar}  # => [:foo, :bar]
 
-f = Foo.new
-begin
-  f.bar("This won't work")
-rescue Exception=>e
-  puts "That didn't work: #{e}"
-end
-f.instance_eval{ bar("But this does") }
+export GEM_HOME=~/.gems
+export PATH=$GEM_HOME/bin:$PATH
 
-ruby
+gem install cocoapods -V
