@@ -1,2 +1,2 @@
-before_validation
-round(double precision, integer)
+round
+brew install imagemagick --disable-openmp
