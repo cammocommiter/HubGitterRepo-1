@@ -1,2 +1,3 @@
-xcode-select
-mysql
+rake rails:update:bin
+
+ceil
