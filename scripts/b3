@@ -1,6 +1,3 @@
-%i{foo bar}  # => [:foo, :bar]
+object.send(:foo) # same as object.foo
 
-export GEM_HOME=~/.gems
-export PATH=$GEM_HOME/bin:$PATH
-
-gem install cocoapods -V
+([2, 6, 13, 99, 27] & [2, 6]).any?
