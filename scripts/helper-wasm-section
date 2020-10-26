@@ -1,2 +1,2 @@
-require
-sudo apt-get install libmysql-ruby libmysqlclient-dev
+gem environment
+Model.find(:all, :order => ...)
