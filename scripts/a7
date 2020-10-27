@@ -1,2 +1,2 @@
-(1..10).include?(number)
-ld: library not found for -lssl
+array.should =~ another_array
+exit-program
