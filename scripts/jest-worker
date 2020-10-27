@@ -1,2 +1,2 @@
-round
-brew install imagemagick --disable-openmp
+::new
+rand(range)
