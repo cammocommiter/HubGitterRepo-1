@@ -1,6 +1,7 @@
-require "net/http"
-url = URI.parse("http://www.google.com/")
-req = Net::HTTP.new(url.host, url.port)
-res = req.request_head(url.path)
+require 'time'
+s = "11/23/10 23:29:57"
+Time.parse(s) # => Tue Nov 23 23:29:57 -0800 2010
+s += " UTC"
+Time.parse(s) # => Tue Nov 23 23:29:57 UTC 2010
 
-portslist: '[{"name":"ob1","port_type" ... }]'
+\r
