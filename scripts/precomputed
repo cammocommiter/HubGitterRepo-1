@@ -1,3 +1,6 @@
-rake rails:update:bin
+$:.push File.expand_path(File.dirname(__FILE__) + '/../surfcompstuff')
 
-ceil
+>> str = '[\w\s]+'
+ => "[\\w\\s]+" 
+>> Regexp.new str
+ => /[\w\s]+/ 
