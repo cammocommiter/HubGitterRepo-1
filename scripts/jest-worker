@@ -1,2 +1,2 @@
-::new
-rand(range)
+to_ary
+respond_to_missing?
