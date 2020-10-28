@@ -1,1 +1,3 @@
-def this; end
+@some_var.class == Hash
+
+gpg
