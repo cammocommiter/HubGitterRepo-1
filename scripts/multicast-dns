@@ -1,2 +1,2 @@
-case
-require
+except
+result = Users.find(:all, :order => "LOWER(name)")
