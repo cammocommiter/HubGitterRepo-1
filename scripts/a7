@@ -1,2 +1,3 @@
-array.should =~ another_array
-exit-program
+change_column :users, :column, :string, :limit => 255
+
+errors[:base] << "Error message"    
