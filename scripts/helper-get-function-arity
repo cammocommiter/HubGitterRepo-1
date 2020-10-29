@@ -1,8 +1,2 @@
-h = { :$in => array }
-h = { :'a.b' => 'c' }
-h[:s] = 42
-
->> str = '[\w\s]+'
- => "[\\w\\s]+" 
->> Regexp.new str
- => /[\w\s]+/ 
+add_foreign_key
+bundle config github.https true
