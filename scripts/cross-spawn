@@ -1,11 +1,2 @@
-require "open-uri"
-
-class User < ActiveRecord::Base
-  has_attached_file :picture
-
-  def picture_from_url(url)
-    self.picture = open(url)
-  end
-end
-
-nil?
+puts Dir.pwd
+extend
