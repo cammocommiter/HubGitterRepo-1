@@ -1,9 +1,6 @@
-<% form_for(something) do |f| %>
-    ..
-    <%= f.submit 'A' %>
-    <%= f.submit 'B' %>
-    ..
-<% end %>
+jekyll serve --watch
+# This gem will work with 1.8.6 or greater...
+spec.required_ruby_version = '>= 1.8.6'
 
-hash = {"apple" => "fruit", "carrot" => "vegetable"}
-array = hash.keys   #=> ["apple", "carrot"]
+# Only with ruby 2.0.x
+spec.required_ruby_version = '~> 2.0'
