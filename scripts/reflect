@@ -1,4 +1,3 @@
->> "1,2,3,4".split(",")
-=> ["1", "2", "3", "4"]
+input = input.gsub(/[^0-9A-Za-z]/, '')
 
-:foo
+rails destroy <name_of_generator>
