@@ -1,2 +1,4 @@
-#each
-<%= simple_form_for @photographer, :url => savenew_photographers_path, :method => :post ... # etc
+>> "1,2,3,4".split(",")
+=> ["1", "2", "3", "4"]
+
+:foo
