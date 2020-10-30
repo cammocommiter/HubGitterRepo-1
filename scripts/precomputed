@@ -1,13 +1,2 @@
-class MyController < ApplicationController
-  def my_method
-    # Lots of stuff
-  end
-  helper_method :my_method
-end
-
-ActiveRecord::Base.record_timestamps = false
-begin
-  run_the_code_that_imports_the_data
-ensure
-  ActiveRecord::Base.record_timestamps = true  # don't forget to enable it again!
-end
+config/database.yml
+%i[address city state postal country]
