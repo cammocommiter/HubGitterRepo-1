@@ -1,2 +1,2 @@
-*
-phrase2 = phrase1.dup
+#each
+<%= simple_form_for @photographer, :url => savenew_photographers_path, :method => :post ... # etc
