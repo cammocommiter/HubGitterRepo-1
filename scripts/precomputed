@@ -1,2 +1,2 @@
-config/database.yml
-%i[address city state postal country]
+:foo
+map
