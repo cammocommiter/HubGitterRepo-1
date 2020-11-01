@@ -1,3 +1,7 @@
-input = input.gsub(/[^0-9A-Za-z]/, '')
+module Mods
+  def self.foo
+     puts "Mods.foo(self)"
+  end
+end
 
-rails destroy <name_of_generator>
+Ctrl+L
