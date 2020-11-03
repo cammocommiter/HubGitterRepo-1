@@ -1,5 +1,13 @@
-%i[address city state postal country]
+class Object
+  def all_equals(o)
+    ops = [:==, :===, :eql?, :equal?]
+    Hash[ops.map(&:to_s).zip(ops.map {|s| send(s, o) })]
+  end
+end
 
- def self.up
-   add_column :users, :multi_wrong, :text
- end
+"a".all_equals "a" # => {"=="=>true, "==="=>true, "eql?"=>true, "equal?"=>false}
+
+class Person
+  attr_accessor :age
+  ...
+end
