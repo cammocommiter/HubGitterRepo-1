@@ -1,11 +1,5 @@
-class JSONServer
-  def call(env)
-    [200, {"Content-Type" => "application/json"}, ['{ "message" : "Hello!" }']]
+  task :my_task do
+    run "my_command"
   end
-end
 
-map '/hello.json' do
-  run JSONServer.new
-end
-
-my_hash.transform_keys(&:to_sym)
+{|x| x.foo}
