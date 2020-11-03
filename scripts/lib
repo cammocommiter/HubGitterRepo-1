@@ -1,7 +1,15 @@
-export CPPFLAGS=-I/opt/X11/include
-
-class BackupTask < Rails::Railtie
-  rake_tasks do
-    Dir[File.join(File.dirname(__FILE__),'tasks/*.rake')].each { |f| load f }
-  end
-end
+ENV['COLUMNS']
+class Api::V1::SessionsController < Devise::SessionsController  
+  def create  
+    respond_to do |format|  
+      format.html { super }  
+      format.json {  
+        warden.authenticate!(:scope => resource_name, :recall => "#{controller_path}#new")  
+        render :status => 200, :json => { :error => "Success" }  
+      }  
+    end  
+  end  
+  def destroy  
+    super  
+  end  
+end  
