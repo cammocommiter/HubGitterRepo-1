@@ -1,2 +1,2 @@
-1
-public
+::foreach, ::open, ::read, and ::readlines
+["10", "20", "50","99"].map(&:inspect).join(', ') # => '"10", "20", "50", "99"'
