@@ -1,2 +1,4 @@
-libjson-ruby
-try
+~/.gemrc
+h = { :$in => array }
+h = { :'a.b' => 'c' }
+h[:s] = 42
