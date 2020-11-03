@@ -1,7 +1,11 @@
-module Mods
-  def self.foo
-     puts "Mods.foo(self)"
+class JSONServer
+  def call(env)
+    [200, {"Content-Type" => "application/json"}, ['{ "message" : "Hello!" }']]
   end
 end
 
-Ctrl+L
+map '/hello.json' do
+  run JSONServer.new
+end
+
+my_hash.transform_keys(&:to_sym)
