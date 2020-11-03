@@ -1,5 +1,2 @@
-  task :my_task do
-    run "my_command"
-  end
-
-{|x| x.foo}
+1
+public
