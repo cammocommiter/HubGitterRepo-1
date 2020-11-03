@@ -1,3 +1,2 @@
-change_column :users, :column, :string, :limit => 255
-
-errors[:base] << "Error message"    
+last
+# encoding: utf-8
