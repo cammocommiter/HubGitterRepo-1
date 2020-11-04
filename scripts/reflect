@@ -1,2 +1,26 @@
-::foreach, ::open, ::read, and ::readlines
-["10", "20", "50","99"].map(&:inspect).join(', ') # => '"10", "20", "50", "99"'
+form do |f|
+    f.inputs "Member Details" do
+        f.input :first_name
+        f.input :last_name
+        f.input :email
+        if !f.object.new_record?
+            f.input :password
+            f.input :password_confirmation
+        end
+    end
+    f.button :Submit
+end
+
+module MyGem
+  describe "CLI" do
+    context "execute" do
+
+      it "should exit cleanly when -h is used" do
+        argv=["-h"]
+        out = StringIO.new
+        lambda { ::MyGem::CLI.execute( out, argv) }.should raise_error SystemExit
+      end
+
+    end
+  end
+end
