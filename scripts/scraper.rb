@@ -1,17 +1,23 @@
-class Hello
-  def create_some_state
-    @hello = "hello"
+class Foo
+  def self.bar(message)
+    @bar ||= message
   end
 end
 
-h = Hello.new
-p h.instance_variables 
+t1 = Thread.new do
+    puts "bar is #{Foo.bar('thread1')}"
+end
 
-h.create_some_state
-p h.instance_variables
+t2 = Thread.new do
+    puts "bar is #{Foo.bar('thread2')}"
+end
 
-# Output
-[]
-["@hello"]
+sleep 2
 
-<%= render :partial => 'form', :locals => { :item => @item } %>
+t1.join
+t2.join
+
+=> bar is thread1
+=> bar is thread1
+
+permalink: /:categories/:year/:month/:day/:title.html
