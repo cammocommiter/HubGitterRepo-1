@@ -1,13 +1,16 @@
-class Object
-  def all_equals(o)
-    ops = [:==, :===, :eql?, :equal?]
-    Hash[ops.map(&:to_s).zip(ops.map {|s| send(s, o) })]
+path = '/tmp/foo'
+lines = IO.readlines(path).map do |line|
+  'Kilroy was here ' + line
+end
+File.open(path, 'w') do |file|
+  file.puts lines
+end
+
+class CustomException < StandardError
+  def initialize(data)
+    @data = data
   end
 end
-
-"a".all_equals "a" # => {"=="=>true, "==="=>true, "eql?"=>true, "equal?"=>false}
-
-class Person
-  attr_accessor :age
-  ...
-end
+# => nil 
+raise CustomException.new(bla: "blupp")
+# CustomException: CustomException
