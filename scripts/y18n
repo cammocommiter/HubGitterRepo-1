@@ -1,16 +1,2 @@
-path = '/tmp/foo'
-lines = IO.readlines(path).map do |line|
-  'Kilroy was here ' + line
-end
-File.open(path, 'w') do |file|
-  file.puts lines
-end
-
-class CustomException < StandardError
-  def initialize(data)
-    @data = data
-  end
-end
-# => nil 
-raise CustomException.new(bla: "blupp")
-# CustomException: CustomException
+config/application.rb
+has_many :entries
