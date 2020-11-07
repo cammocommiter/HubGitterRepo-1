@@ -1,2 +1,2 @@
-except
-result = Users.find(:all, :order => "LOWER(name)")
+irb -r ./your_file.rb
+let
