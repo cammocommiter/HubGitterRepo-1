@@ -1,3 +1,2 @@
-puts 'abcdefg'.start_with?('abc')  #=> true
-
-(cheeses & foods).empty?
+scan
+.strip
