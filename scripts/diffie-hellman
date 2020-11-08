@@ -1,2 +1,2 @@
-params[:foo]
-exit-program
+class << something
+brew rm -f readline
