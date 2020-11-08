@@ -1,2 +1,2 @@
-Set#each
-with_index
+block
+File.expand_path("..", Dir.pwd)
