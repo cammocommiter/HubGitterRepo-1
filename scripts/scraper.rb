@@ -1,23 +1,13 @@
-class Foo
-  def self.bar(message)
-    @bar ||= message
-  end
+require 'digest/sha1'
+Digest::SHA1.hexdigest 'foo'
+
+def multiple_of(factor)
+  Proc.new{|product| product.modulo(factor).zero?}
 end
 
-t1 = Thread.new do
-    puts "bar is #{Foo.bar('thread1')}"
+case number
+  when multiple_of(3)
+    puts "Multiple of 3"
+  when multiple_of(7)
+    puts "Multiple of 7"
 end
-
-t2 = Thread.new do
-    puts "bar is #{Foo.bar('thread2')}"
-end
-
-sleep 2
-
-t1.join
-t2.join
-
-=> bar is thread1
-=> bar is thread1
-
-permalink: /:categories/:year/:month/:day/:title.html
