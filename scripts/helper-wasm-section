@@ -1,2 +1,2 @@
-stringify_keys
-set :ssh_options, {:forward_agent => true}
+gem list
+Child
