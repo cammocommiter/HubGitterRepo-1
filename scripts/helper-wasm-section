@@ -1,4 +1,2 @@
-~/.gemrc
-h = { :$in => array }
-h = { :'a.b' => 'c' }
-h[:s] = 42
+stringify_keys
+set :ssh_options, {:forward_agent => true}
