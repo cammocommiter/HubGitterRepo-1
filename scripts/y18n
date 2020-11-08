@@ -1,2 +1,2 @@
-config/application.rb
-has_many :entries
+sub
+p e.backtrace 
