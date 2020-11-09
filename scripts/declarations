@@ -1,2 +1,5 @@
-user.present?
-bundle clean
+d = DateTime.now.utc
+if __FILE__ == $0
+    foo()
+    bar()
+end
