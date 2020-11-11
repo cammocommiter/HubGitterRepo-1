@@ -1,2 +1,7 @@
-let
-child_process.exec
+*
+# Will raise exception if any value not found
+User.find( [1,3,5] )
+
+# Will not raise an exception
+User.find_all_by_id( [1,3,5] ) # Rails 3
+User.where(id: [1,3,5])        # Rails 4
