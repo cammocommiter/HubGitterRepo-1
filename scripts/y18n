@@ -1,11 +1,6 @@
-class JSONServer
-  def call(env)
-    [200, {"Content-Type" => "application/json"}, ['{ "message" : "Hello!" }']]
-  end
-end
-
-map '/hello.json' do
-  run JSONServer.new
-end
-
-Dir.pwd
+Klazz
+a = [3, 2, 4, 6, 3, 8]
+a.delete(3)
+#=> 3
+a
+#=> [2, 4, 6, 8]
