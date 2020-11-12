@@ -1,2 +1,2 @@
-class << something
-brew rm -f readline
+gem install <gem_name>
+random_boolean = [true, false].sample
