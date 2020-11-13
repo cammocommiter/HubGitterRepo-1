@@ -1,2 +1,3 @@
-ApplicationController.any_instance.stub(:current_user)
-Hash::[]
+  config.include Capybara::DSL
+
+ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
