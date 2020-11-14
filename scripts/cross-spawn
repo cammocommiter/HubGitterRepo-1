@@ -1,3 +1,2 @@
-String1.scan(/<([^>]*)>/).last.first
-
-Array#uniq
+to_s
+create
