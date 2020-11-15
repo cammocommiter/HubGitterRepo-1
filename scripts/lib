@@ -1,24 +1,7 @@
-class Example
-  attr_reader :name, :age
+sudo apt-get install libreadline5-dev
+cd ext/readline
+ruby extconf.rb
+make
+sudo make install
 
-  def initialize args
-    args.each do |k,v|
-      instance_variable_set("@#{k}", v) unless v.nil?
-    end
-  end
-end
-#=> nil
-e1 = Example.new :name => 'foo', :age => 33
-#=> #<Example:0x3f9a1c @name="foo", @age=33>
-e2 = Example.new :name => 'bar'
-#=> #<Example:0x3eb15c @name="bar">
-e1.name
-#=> "foo"
-e1.age
-#=> 33
-e2.name
-#=> "bar"
-e2.age
-#=> nil
-
-()
+image_path
