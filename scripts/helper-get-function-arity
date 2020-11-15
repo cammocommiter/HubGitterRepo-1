@@ -1,11 +1,11 @@
-10.hours
-class A
-  class << self
-    puts self # self is the singleton class of A
+decimal
+def should_compress?(value, options)
+  if options[:compress] && value
+    unless value.is_a?(Numeric)
+      compress_threshold = options[:compress_threshold] || DEFAULT_COMPRESS_LIMIT
+      serialized_value = value.is_a?(String) ? value : Marshal.dump(value)
+      return true if serialized_value.size >= compress_threshold   
+    end
   end
-end
-
-a = A.new
-class << a
-  puts self # now it's the singleton class of object a
+  false  
 end
