@@ -1,10 +1,19 @@
-gem install bundle
->> require 'ostruct'
-=> []
->> foo = {'bar'=>'baz'}
-=> {"bar"=>"baz"}
->> foo_obj = OpenStruct.new foo
-=> #<OpenStruct bar="baz">
->> foo_obj.bar
-=> "baz"
->>
+1.upto(10) do |i|
+  puts i
+end
+
+>> 1.upto(10) do |i|
+ >     puts i
+|    end #=> 1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+for i in `gem list --no-versions`; do gem uninstall -aIx $i; done
