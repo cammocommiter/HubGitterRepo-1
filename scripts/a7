@@ -1,16 +1,5 @@
-file_names = ['foo.txt', 'bar.txt']
-
-file_names.each do |file_name|
-  text = File.read(file_name)
-  new_contents = text.gsub(/search_regexp/, "replacement string")
-
-  # To merely print the contents of the file, use:
-  puts new_contents
-
-  # To write changes to the file, use:
-  File.open(file_name, "w") {|file| file.puts new_contents }
-end
-
-def true?(obj)
-  obj.to_s.downcase == "true"
-end
+ruby1.9.1-dev
+>> time = Time.new
+=> Fri Oct 03 01:24:48 +0100 2008
+>> time.strftime("%a %b #{time.day.ordinalize}")
+=> "Fri Oct 3rd"
