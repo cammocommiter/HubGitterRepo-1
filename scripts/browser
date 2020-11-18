@@ -1,1 +1,14 @@
-def this; end
+<div class="form_row">
+    <label for="theme">Theme:</label>
+    <% [ 'plain', 'desert', 'green', 'corporate', 'funky' ].each do |theme| %>
+      <br><%= radio_button_tag 'theme', theme, @theme == theme %>
+      <%= theme.humanize %>
+    <% end %>
+</div>
+
+def valid_json?(json)
+    JSON.parse(json)
+    return true
+  rescue JSON::ParserError => e
+    return false
+end
