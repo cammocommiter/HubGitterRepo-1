@@ -1,3 +1,2 @@
-gem install mygem
-
-=
+Math.gamma
+Dir.entries
