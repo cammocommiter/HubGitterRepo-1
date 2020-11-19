@@ -1,2 +1,5 @@
-ActiveRecord::Base.connection
-:token_authenticatable
+decimal
+app/
+  commands/
+    products/create_command.rb         # Products::CreateCommand
+    products/update_price_command.rb   # Products::UpdatePriceCommand
