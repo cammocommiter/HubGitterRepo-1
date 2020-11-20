@@ -1,7 +1,2 @@
-sudo apt-get install libreadline5-dev
-cd ext/readline
-ruby extconf.rb
-make
-sudo make install
-
-image_path
+code
+number_with_precision
