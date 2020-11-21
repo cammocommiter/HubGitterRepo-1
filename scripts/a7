@@ -1,2 +1,2 @@
-rails generate rspec:install
-request.session_options[:id]
+request.original_url
+scaffold
