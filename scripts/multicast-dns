@@ -1,2 +1,8 @@
-Math.gamma
-Dir.entries
+@title = tokens[Title]
+@title.strip!
+
+a = "foobar"
+a.slice! "foo"
+=> "foo"
+a
+=> "bar"
