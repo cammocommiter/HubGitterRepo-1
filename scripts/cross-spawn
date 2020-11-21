@@ -1,2 +1,5 @@
-?a
-with_index
+hash = {:item1 => 1}
+
+<% @images.each_with_index do |page, index| %>
+
+<% end %>
