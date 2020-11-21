@@ -1,2 +1,2 @@
-||=
-tr
+nano /usr/local/Library/brew.rb
+FileUtils.touch
