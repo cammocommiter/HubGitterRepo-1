@@ -1,3 +1,5 @@
-raise new.TriangleError
+git remote -v
 
-ENV['COLUMNS']
+gem 'machinist_mongo', :require => 'machinist/mongoid', 
+:git => 'http://github.com/nmerouze/machinist_mongo.git',
+:branch => 'machinist2'
