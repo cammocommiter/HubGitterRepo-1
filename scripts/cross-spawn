@@ -1,5 +1,2 @@
-hash = {:item1 => 1}
-
-<% @images.each_with_index do |page, index| %>
-
-<% end %>
+||=
+%i[address city state postal country]
