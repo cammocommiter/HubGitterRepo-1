@@ -1,2 +1,7 @@
-code
-number_with_precision
+$ sudo apt-get install postgresql
+$ sudo apt-get install libpq-dev
+
+has_many  :active_events, :through => :event_users, 
+          :class_name => "Event", 
+          :source => :event, 
+          :conditions => ['event_users.active = ?',true]
