@@ -1,9 +1,2 @@
-path = "/path/to/xyz.mp4"
-
-File.basename(path)         # => "xyz.mp4"
-File.extname(path)          # => ".mp4"
-File.basename(path, ".mp4") # => "xyz"
-File.basename(path, ".*")   # => "xyz"
-File.dirname(path)          # => "/path/to"
-
-||=
+next
+render_404
