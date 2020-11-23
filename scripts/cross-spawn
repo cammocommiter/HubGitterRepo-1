@@ -1,2 +1,2 @@
-||=
-%i[address city state postal country]
+Item.select("name, address").where( .... )
+$ gem install launchy
