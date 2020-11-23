@@ -1,1 +1,5 @@
-def this; end
+Given /^PENDING/ do
+  pending
+end
+
+&
