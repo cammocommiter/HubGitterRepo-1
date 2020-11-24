@@ -1,5 +1,11 @@
-git remote -v
+module Crawler
+  def self.logger
+    @logger
+  end
+  def self.logger=(logger)
+    @logger = logger
+  end
+end
 
-gem 'machinist_mongo', :require => 'machinist/mongoid', 
-:git => 'http://github.com/nmerouze/machinist_mongo.git',
-:branch => 'machinist2'
+require 'rake'
+Rake::Task[name].invoke
