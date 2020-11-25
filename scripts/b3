@@ -1,2 +1,13 @@
-os
-puts caller
+def noise=(noise)
+  @noise = noise
+end
+
+def last_noise
+  @noise
+end
+
+h = {a: 1, b: 2, c: 3}
+key_map = {a: 'A', b: 'B', c: 'C'}
+
+h.transform_keys! {|k| key_map[k]}
+# => {"A"=>1, "B"=>2, "C"=>3} 
