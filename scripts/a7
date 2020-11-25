@@ -1,12 +1,16 @@
-#1 query
-Dog.find(:all).each do |dog|
-   #N queries
-   dog.owner.siblings.each do |sibling|
-      #N queries per above N query!!
-      sibling.pets.each do |pet|
-         #Do something here
-      end
-   end
-end
+Net::HTTP
+require 'yaml'
 
-rspec
+HASH_OF_HASHES = {
+  "hostname1.test.com"=> {"public"=>"51", "private"=>"10"},
+  "hostname2.test.com"=> {"public"=>"192", "private"=>"12"}
+}
+
+ARRAY_OF_HASHES = [
+  {"hostname1.test.com"=> {"public"=>"51", "private"=>"10"}},
+  {"hostname2.test.com"=> {"public"=>"192", "private"=>"12"}}
+]
+
+puts HASH_OF_HASHES.to_yaml
+puts
+puts ARRAY_OF_HASHES.to_yaml
