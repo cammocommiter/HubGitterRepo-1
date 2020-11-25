@@ -1,2 +1,2 @@
-Item.select("name, address").where( .... )
-$ gem install launchy
+~/.rspec
+.gem
