@@ -1,8 +1,4 @@
-File.open("my/file/path", "r") do |f|
-  f.each_line do |line|
-    puts line
-  end
-end
-# File is closed automatically at end of block
+sudo gem install rails -V
 
-reject
+require 'io/console'
+password = STDIN.noecho(&:gets).chomp
