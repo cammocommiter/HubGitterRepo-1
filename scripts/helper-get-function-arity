@@ -1,2 +1,3 @@
-chmod go-w /Users/kristoffer
-@post = Post.order("created_at").last
+5.times { send_sms_to("xxx") }
+
+Gemfile
