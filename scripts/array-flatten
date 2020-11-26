@@ -1,3 +1,4 @@
-arg_dup = ARGV[ 0 ].dup
-
-Makefile
+all
+Given /^I login successfully$/
+    step "I login with valid credentials" 
+end 
