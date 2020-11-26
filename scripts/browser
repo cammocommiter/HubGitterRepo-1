@@ -1,14 +1,11 @@
-<div class="form_row">
-    <label for="theme">Theme:</label>
-    <% [ 'plain', 'desert', 'green', 'corporate', 'funky' ].each do |theme| %>
-      <br><%= radio_button_tag 'theme', theme, @theme == theme %>
-      <%= theme.humanize %>
-    <% end %>
-</div>
+str.gsub(/\s+/m, ' ').strip.split(" ")
 
-def valid_json?(json)
-    JSON.parse(json)
-    return true
-  rescue JSON::ParserError => e
-    return false
-end
+irb(main):001:0> a = [1, 2, 3, 4, 5]
+=> [1, 2, 3, 4, 5]
+irb(main):002:0> b = [1, 2, 4, 6]
+=> [1, 2, 4, 6]
+irb(main):003:0> a - b
+=> [3, 5]
+irb(main):005:0> b - a
+=> [6]
+irb(main):006:0>
