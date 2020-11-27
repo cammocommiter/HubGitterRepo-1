@@ -1,2 +1,2 @@
-Time
-Array
+else if
+{|x| x.foo}
