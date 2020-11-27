@@ -1,11 +1,14 @@
-module Crawler
-  def self.logger
-    @logger
-  end
-  def self.logger=(logger)
-    @logger = logger
-  end
+class A
 end
 
-require 'rake'
-Rake::Task[name].invoke
+class B < A
+end
+
+B.superclass # => A
+B.superclass.name # => "A"
+
+require "csv"
+CSV.open("file.csv", "wb") do |csv|
+  csv << ["animal", "count", "price"]
+  csv << ["fox", "1", "$90.00"]
+end
