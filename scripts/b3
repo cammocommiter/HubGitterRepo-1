@@ -1,2 +1,2 @@
-bundle install
-m spec/my_spec.rb:25
+fire!
+@bunch.group_by{|e| [e.commentable_id, e.commentable_type]}
