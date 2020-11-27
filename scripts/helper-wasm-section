@@ -1,2 +1,2 @@
-nano /usr/local/Library/brew.rb
-FileUtils.touch
+begin <code> end while <condition>
+/bin/sh
