@@ -1,7 +1,2 @@
-[1,2,3,5,2].find { |n| puts n; n == 2 } 
-def foo
-  p "bar".object_id
-end
-
-foo #=> 15779172
-foo #=> 15779112
+-b
+rake time:zones:us
