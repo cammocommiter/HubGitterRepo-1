@@ -1,1 +1,4 @@
-def this; end
+!
+=begin
+  [Multi line comment]
+=end
