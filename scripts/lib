@@ -1,7 +1,9 @@
-$ sudo apt-get install postgresql
-$ sudo apt-get install libpq-dev
+raise NotImplementedError
 
-has_many  :active_events, :through => :event_users, 
-          :class_name => "Event", 
-          :source => :event, 
-          :conditions => ['event_users.active = ?',true]
+url    = 'http://www.example.com?id=4&empid=6'
+uri    = URI.parse(url)
+params = CGI.parse(uri.query)
+# params is now {"id"=>["4"], "empid"=>["6"]}
+
+id     = params['id'].first
+# id is now "4"
