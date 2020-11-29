@@ -1,2 +1,2 @@
-#flatten!
--v
+request.original_url
+include?
