@@ -1,2 +1,4 @@
-begin <code> end while <condition>
-/bin/sh
+scan
+Given /^PENDING/ do
+  pending
+end
