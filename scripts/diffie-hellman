@@ -1,5 +1,2 @@
-Given /^PENDING/ do
-  pending
-end
-
-module_function
+all
+bundle update
