@@ -1,4 +1,4 @@
-all
-Given /^I login successfully$/
-    step "I login with valid credentials" 
-end 
+require 'Date'
+my_date = Date.strptime("12/22/2011", "%m/%d/%Y")
+
+autolibs
