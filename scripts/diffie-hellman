@@ -1,2 +1,2 @@
-all
-bundle update
+if: :devise_controller?
+to_sym
