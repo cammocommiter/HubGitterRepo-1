@@ -1,9 +1,6 @@
-raise NotImplementedError
+create_table :my_table, id: false do |t|
+  t.string :key_column
+  t.string :value_column
+end
 
-url    = 'http://www.example.com?id=4&empid=6'
-uri    = URI.parse(url)
-params = CGI.parse(uri.query)
-# params is now {"id"=>["4"], "empid"=>["6"]}
-
-id     = params['id'].first
-# id is now "4"
+sudo gem install bundler
