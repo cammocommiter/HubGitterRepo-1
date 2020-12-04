@@ -1,1 +1,2 @@
-def this; end
+ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]
+validates_length_of :foo, minimum: 5, maximum: 5, allow_blank: true
