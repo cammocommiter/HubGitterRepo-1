@@ -1,2 +1,5 @@
-else if
-{|x| x.foo}
+{{>header}}
+    Hello {{name}}
+{{>footer}}
+
+#each
