@@ -1,4 +1,2 @@
-scan
-Given /^PENDING/ do
-  pending
-end
+should
+bundle install --path ~/.gem
