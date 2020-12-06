@@ -1,4 +1,15 @@
-require 'Date'
-my_date = Date.strptime("12/22/2011", "%m/%d/%Y")
+<pre>
+require 'rake'
 
-autolibs
+def capture_stdout
+  s = StringIO.new
+  oldstdout = $stdout
+  $stdout = s
+  yield
+  s.string
+ensure
+  $stdout = oldstdout
+end
+
+Rake.application.rake_require 'metric_fetcher', ['../../lib/tasks']
+results = capture_stdout {Rake.application['metric_fetcher'].invoke}
