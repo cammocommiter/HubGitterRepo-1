@@ -1,7 +1,7 @@
-downto
-Loading development environment (Rails 2.3.2)
->> now = DateTime.now.utc
-=> Sun, 06 Sep 2009 22:27:45 +0000
->> now.in_time_zone('Eastern Time (US & Canada)')
-=> Sun, 06 Sep 2009 18:27:45 EDT -04:00
->> quit
+String#scan
+new Regex("From:\\s*" + Regex.Escape(_mail), RegexOptions.IgnoreCase);
+new Regex("<" + Regex.Escape(_mail) + ">", RegexOptions.IgnoreCase);
+new Regex(Regex.Escape(_mail) + "\\s+wrote:", RegexOptions.IgnoreCase);
+new Regex("\\n.*On.*(\\r\\n)?wrote:\\r\\n", RegexOptions.IgnoreCase | RegexOptions.Multiline);
+new Regex("-+original\\s+message-+\\s*$", RegexOptions.IgnoreCase);
+new Regex("from:\\s*$", RegexOptions.IgnoreCase);
