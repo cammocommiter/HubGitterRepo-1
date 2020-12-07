@@ -1,7 +1,2 @@
-String#scan
-new Regex("From:\\s*" + Regex.Escape(_mail), RegexOptions.IgnoreCase);
-new Regex("<" + Regex.Escape(_mail) + ">", RegexOptions.IgnoreCase);
-new Regex(Regex.Escape(_mail) + "\\s+wrote:", RegexOptions.IgnoreCase);
-new Regex("\\n.*On.*(\\r\\n)?wrote:\\r\\n", RegexOptions.IgnoreCase | RegexOptions.Multiline);
-new Regex("-+original\\s+message-+\\s*$", RegexOptions.IgnoreCase);
-new Regex("from:\\s*$", RegexOptions.IgnoreCase);
+::
+ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]
