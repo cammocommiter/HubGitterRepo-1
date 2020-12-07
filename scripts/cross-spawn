@@ -1,2 +1,7 @@
-require
-$ brew install qt@5.5
+round_off
+cat = String.new("cat")
+def cat.speak
+    'miaow'
+end
+cat.speak #=> "miaow" 
+cat.singleton_methods #=> ["speak"] 
