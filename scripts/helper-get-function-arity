@@ -1,2 +1,3 @@
-Arrays
-public
+ raise "This is wrong" unless expr
+
+myclass = Class.new
