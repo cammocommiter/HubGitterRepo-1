@@ -1,4 +1,59 @@
-objects.sort_by {|obj| obj.attribute}
+#!/usr/bin/env ruby
 
-[1,2,3,4].shuffle => [2, 1, 3, 4]
-[1,2,3,4].shuffle => [1, 3, 2, 4]
+=begin
+Every body mentioned this way
+to have multiline comments.
+
+The =begin and =end must be at the beginning of the line or
+it will be a syntax error.
+=end
+
+puts "Hello world!"
+
+<<-DOC
+Also, you could create a docstring.
+which...
+DOC
+
+puts "Hello world!"
+
+"..is kinda ugly and creates
+a String instance, but I know one guy
+with a Smalltalk background, who
+does this."
+
+puts "Hello world!"
+
+##
+# most
+# people
+# do
+# this
+
+
+__END__
+
+But all forgot there is another option.
+Only at the end of a file, of course.
+
+class Hash
+  # Returns a hash that includes everything but the given keys.
+  #   hash = { a: true, b: false, c: nil}
+  #   hash.except(:c) # => { a: true, b: false}
+  #   hash # => { a: true, b: false, c: nil}
+  #
+  # This is useful for limiting a set of parameters to everything but a few known toggles:
+  #   @person.update(params[:person].except(:admin))
+  def except(*keys)
+    dup.except!(*keys)
+  end
+
+  # Replaces the hash without the given keys.
+  #   hash = { a: true, b: false, c: nil}
+  #   hash.except!(:c) # => { a: true, b: false}
+  #   hash # => { a: true, b: false }
+  def except!(*keys)
+    keys.each { |key| delete(key) }
+    self
+  end
+end
