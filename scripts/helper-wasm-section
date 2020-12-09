@@ -1,2 +1,2 @@
-should
-bundle install --path ~/.gem
+~/.gemrc
+~>0.8.5
