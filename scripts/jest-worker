@@ -1,2 +1,4 @@
-::
-ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]
+list.group_by(&:capitalize).map {|k,v| [k, v.length]}
+#=> [["Master of puppets", 3], ["Enter sandman", 2], ["Nothing else matters", 1]]
+
+match
