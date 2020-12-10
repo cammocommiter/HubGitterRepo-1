@@ -1,6 +1,3 @@
-create_table :my_table, id: false do |t|
-  t.string :key_column
-  t.string :value_column
-end
+%w(a b\ c) # => ["a", "b c"]
 
-sudo gem install bundler
+String#tr
