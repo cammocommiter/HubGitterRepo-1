@@ -1,19 +1,5 @@
-# encoding: utf-8
-#!/usr/bin/ruby1.8
+delegate :occupation, :location, :picture_url, 
+         :homepage_url, :headline, :full_name, 
+         :to => :profile, :prefix => true, :allow_nil => true
 
-require 'pp'
-mooth = [
-  "booth", "month", "mooch", "morth",
-  "mouth", "mowth", "sooth", "tooth"
-]
-PP.pp(mooth, $>, 40)
-# => ["booth",
-# =>  "month",
-# =>  "mooch",
-# =>  "morth",
-# =>  "mouth",
-# =>  "mowth",
-# =>  "sooth",
-# =>  "tooth"]
-PP.pp(mooth, $>, 79)
-# => ["booth", "month", "mooch", "morth", "mouth", "mowth", "sooth", "tooth"]
+sudo CC=/usr/bin/gcc-4.2 rvm install --force ree
