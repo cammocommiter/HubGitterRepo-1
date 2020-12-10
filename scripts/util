@@ -1,2 +1,8 @@
-request.original_url
-include?
+@some_var.class == Hash
+
+module GemName
+
+  class AuthenticationError < StandardError; end
+  class InvalidUsername < AuthenticationError; end
+
+end
