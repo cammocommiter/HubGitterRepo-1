@@ -1,3 +1,2 @@
-jekyll serve --host=0.0.0.0
-$ irb
->> load './filename.rb'
+<<
+curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
