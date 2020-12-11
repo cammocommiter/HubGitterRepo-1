@@ -1,2 +1,2 @@
-Makefile
-=3f
+@post = Post.order("created_at").last
+config.my_config_value = 'value'
