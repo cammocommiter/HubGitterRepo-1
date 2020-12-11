@@ -1,3 +1,2 @@
-RUBY_VERSION
-
-^
+Range#===
+......
