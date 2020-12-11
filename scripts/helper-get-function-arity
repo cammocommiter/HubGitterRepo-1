@@ -1,3 +1,2 @@
- raise "This is wrong" unless expr
-
-myclass = Class.new
+Makefile
+=3f
