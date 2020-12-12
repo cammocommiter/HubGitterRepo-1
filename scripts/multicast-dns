@@ -1,2 +1,2 @@
-new
-Factory.after_ hooks
+>= 2.5.0
+instance_variable_get
