@@ -1,5 +1,3 @@
-delegate :occupation, :location, :picture_url, 
-         :homepage_url, :headline, :full_name, 
-         :to => :profile, :prefix => true, :allow_nil => true
+$:.push File.expand_path(File.dirname(__FILE__) + '/../surfcompstuff')
 
-sudo CC=/usr/bin/gcc-4.2 rvm install --force ree
+~/.gemrc
