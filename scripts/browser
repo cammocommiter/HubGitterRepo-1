@@ -1,10 +1,2 @@
-def my_method(options = {}) 
-
-my_method(:width => 400, :height => 50, :show_border => false)
-
-def f(fruit)
-   fruit + "!"
-end
-
-arr = ["apples", "bananas", "coconuts", "watermelons"]
-h = Hash[ *arr.collect { |v| [ v, f(v) ] }.flatten ]
+Gemfile
+Hash::[]
