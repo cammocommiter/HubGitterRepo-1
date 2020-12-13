@@ -1,2 +1,2 @@
-gem update bundler
-values_at
+punkt-segmenter
+echo $GEM_HOME
