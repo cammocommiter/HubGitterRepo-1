@@ -1,2 +1,4 @@
-code
-File.directory?("name")
+(cheeses & foods).empty?
+
+>> '%.2f' % 2.3465
+=> "2.35"
