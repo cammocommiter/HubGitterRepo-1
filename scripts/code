@@ -1,3 +1,9 @@
-%i[a b c d].all? {|s| hash.key? s}
+class Ask
+  def self.make_permalink(phrase)
+    phrase.strip.downcase.gsub! /\ +/, '-'
+  end
+end
 
-rvm pkg install openssl
+Ask.make_permalink("make a slug out of this line")
+
+class << self
