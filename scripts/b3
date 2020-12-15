@@ -1,7 +1,9 @@
-class Hash
-  def compact
-    delete_if { |k, v| v.nil? }
+scan
+class Object
+  def all_equals(o)
+    ops = [:==, :===, :eql?, :equal?]
+    Hash[ops.map(&:to_s).zip(ops.map {|s| send(s, o) })]
   end
 end
 
-endDate - beginDate 
+"a".all_equals "a" # => {"=="=>true, "==="=>true, "eql?"=>true, "equal?"=>false}
