@@ -1,4 +1,5 @@
-sudo
-class Car {
-    class Wheel { }
-}
+= link_to "path/to/page.html" do
+  Other page
+  %span.icon Arrow
+
+update_attribute
