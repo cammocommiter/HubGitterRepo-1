@@ -1,3 +1,2 @@
-%w(a b\ c) # => ["a", "b c"]
-
-String#tr
+scan
+authenticity_token
