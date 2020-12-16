@@ -1,3 +1,2 @@
-HTTParty.get( "#{ @settings.api_server }#{ url }", :verify => false ).parsed_response
-
-all
+'true'
+UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
