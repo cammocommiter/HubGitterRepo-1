@@ -1,2 +1,4 @@
->= 2.5.0
-instance_variable_get
+open
+var = "Value"
+str = "a test Value"
+p str.gsub( /#{var}/, 'foo' )   # => "a test foo"
