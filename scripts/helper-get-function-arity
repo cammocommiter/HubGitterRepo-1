@@ -1,2 +1,4 @@
-include?
-scaffold
+if goo =~ /#{Regexp.quote(foo)}/
+#...
+
+@
