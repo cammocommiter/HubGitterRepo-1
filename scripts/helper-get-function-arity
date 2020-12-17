@@ -1,10 +1,2 @@
-require 'erb'
-require 'ostruct'
-namespace = OpenStruct.new(name: 'Joan', last: 'Maragall')
-template = 'Name: <%= name %> <%= last %>'
-result = ERB.new(template).result(namespace.instance_eval { binding })
-#=> Name: Joan Maragall
-
-class A
-  private_class_method :new
-end
+include?
+scaffold
