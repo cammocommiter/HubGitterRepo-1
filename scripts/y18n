@@ -1,3 +1,2 @@
-$:.push File.expand_path(File.dirname(__FILE__) + '/../surfcompstuff')
-
-~/.gemrc
+spec_helper.rb
+change_column :users, :admin, :boolean, :default => false
