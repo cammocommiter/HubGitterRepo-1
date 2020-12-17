@@ -1,4 +1,2 @@
-[5, 10].min
-
-array = [1, 2, 3, 4, 5, 6]
-array.each { |x| puts x }
+!
+Delayed::Job.find(10).invoke_job # 10 is the job.id
