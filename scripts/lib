@@ -1,13 +1,3 @@
-i += 1
+<%= f.hidden_field :service, :value => "test" %>
 
-require 'erb'
-require 'ostruct'
-
-class ErbalT < OpenStruct
-  def render(template)
-    ERB.new(template).result(binding)
-  end
-end
-
-et = ErbalT.new({ :first => 'Mislav', 'last' => 'Marohnic' })
-puts et.render('Name: <%= first %> <%= last %>')
+sudo apt-get install libxslt-dev libxml2-dev
