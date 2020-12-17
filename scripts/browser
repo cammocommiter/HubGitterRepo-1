@@ -1,4 +1,2 @@
-&
-def instance_value
-  "my value"
-end
+puts
+<%= render :partial => 'form', :locals => { :item => @item } %>
