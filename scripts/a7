@@ -1,9 +1,14 @@
-begin
-  gem "somegem"
-  # with requirements
-  gem "somegem", ">=2.0"
-rescue Gem::LoadError
-  # not installed
+scaffold
+class Foo
+  def bar
+    'Hello'
+  end
+end 
+
+class ExtendedFoo < Foo
+  def bar
+    super + ' World'
+  end
 end
 
-BasicObject
+ExtendedFoo.new.bar # => 'Hello World'
