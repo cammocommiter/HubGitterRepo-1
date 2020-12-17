@@ -1,2 +1,3 @@
-scan
-authenticity_token
+Rake::Task['your_task'].invoke
+
+#each
