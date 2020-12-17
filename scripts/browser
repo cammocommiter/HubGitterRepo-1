@@ -1,2 +1,2 @@
-puts
-<%= render :partial => 'form', :locals => { :item => @item } %>
+case
+gem install
