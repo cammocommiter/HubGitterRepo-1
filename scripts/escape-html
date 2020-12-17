@@ -1,1 +1,2 @@
-def this; end
+@controller.controller_name == "projects"
+console.log 'hi' for [1..3]
