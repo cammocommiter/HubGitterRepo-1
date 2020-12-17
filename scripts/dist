@@ -1,11 +1,2 @@
-class Foo
-  def test_method
-    __method__
-  end
-end
-
-  # Runs a subprocess and applies handlers for stdout and stderr
-  # Params:
-  # +command+:: command line string to be executed by the system
-  # +outhandler+:: +Proc+ object that takes a pipe object as first and only param (may be nil)
-  # +errhandler+:: +Proc+ object that takes a pipe object as first and only param (may be nil)
+rbenv
+make install
