@@ -1,3 +1,9 @@
-task :t, [args] => [deps] 
+def noise=(noise)
+  @noise = noise
+end
 
-time_t
+def last_noise
+  @noise
+end
+
+trained
