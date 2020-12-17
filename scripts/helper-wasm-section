@@ -1,5 +1,10 @@
-class Car {
-    class Wheel { }
-}
+array_of_hashes.sort_by { |hsh| hsh[:zip] }
 
-size
+puts [1,2,3].map{ |k| k+1 }
+2
+3
+4
+=> nil
+puts [1,2,3].map do |k| k+1; end
+#<Enumerator:0x0000010a06d140>
+=> nil
