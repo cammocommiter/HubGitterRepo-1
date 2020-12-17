@@ -1,2 +1,4 @@
-Gemfile
-Hash::[]
+&
+def instance_value
+  "my value"
+end
