@@ -1,2 +1,2 @@
-case
-gem install
+reload!
+instance_variable_set
