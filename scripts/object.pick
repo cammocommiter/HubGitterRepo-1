@@ -1,3 +1,2 @@
-rvm implode
-
-downcase
+mystring == yourstring
+irb -r ./your_file.rb
