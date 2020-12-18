@@ -1,1 +1,3 @@
-def this; end
+puts Gem.loaded_specs["activesupport"].version
+
+r:bom|utf-8
