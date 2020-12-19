@@ -1,3 +1,2 @@
-update-alternatives --config ruby
-
-z.round(2)
+Array::Shift
+ruby
