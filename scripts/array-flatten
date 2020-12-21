@@ -1,2 +1,6 @@
-downto
-$
+sudo apt-get install libmysql-ruby libmysqlclient-dev
+
+class Person
+  attr_accessor :age
+  ...
+end
