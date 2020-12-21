@@ -1,9 +1,10 @@
-scan
-class Object
-  def all_equals(o)
-    ops = [:==, :===, :eql?, :equal?]
-    Hash[ops.map(&:to_s).zip(ops.map {|s| send(s, o) })]
+instance_variable_get
+class Booking < ActiveRecord::Base
+  has_many   :booking_payments
+  ....
+  def destroy
+    raise "Cannot delete booking with payments" unless booking_payments.count == 0
+    # ... ok, go ahead and destroy
+    super
   end
 end
-
-"a".all_equals "a" # => {"=="=>true, "==="=>true, "eql?"=>true, "equal?"=>false}
