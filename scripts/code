@@ -1,9 +1,4 @@
-def noise=(noise)
-  @noise = noise
-end
+Set
+hs.reduce({}) {|h,pairs| pairs.each {|k,v| (h[k] ||= []) << v}; h}
 
-def last_noise
-  @noise
-end
-
-trained
+hs.map(&:to_a).flatten(1).reduce({}) {|h,(k,v)| (h[k] ||= []) << v; h}
