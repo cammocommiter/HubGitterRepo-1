@@ -1,4 +1,8 @@
-Set
-hs.reduce({}) {|h,pairs| pairs.each {|k,v| (h[k] ||= []) << v}; h}
+a = [1,2,3,4,5]
+a.include?(3)   # => true
+a.include?(9)   # => false
 
-hs.map(&:to_a).flatten(1).reduce({}) {|h,(k,v)| (h[k] ||= []) << v; h}
+>> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
+=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
+>> hash.values
+=> [["a", "b", "c"], ["b", "c"]]
