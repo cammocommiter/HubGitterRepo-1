@@ -1,2 +1,5 @@
-'true'
-UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
+a = {'Peter' => 32, 'Quagmire' => 'asdas'}
+
+gem 'ruby-oci8', '=1.0.7'
+require 'oci8'           # example is confusing; file required (oci8.rb) is not 
+                         # same name as gem, as is frequently the case
