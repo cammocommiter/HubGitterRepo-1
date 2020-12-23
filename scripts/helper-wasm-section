@@ -1,2 +1,7 @@
-pluck
-.each_with_index
+h = {1 => 'one', 2 => 'two', 3 => 'three'}
+
+(1..3).each do |i|
+  puts h[i]
+end
+
+w+
