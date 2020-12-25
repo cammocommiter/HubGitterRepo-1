@@ -1,5 +1,4 @@
-a = {'Peter' => 32, 'Quagmire' => 'asdas'}
-
-gem 'ruby-oci8', '=1.0.7'
-require 'oci8'           # example is confusing; file required (oci8.rb) is not 
-                         # same name as gem, as is frequently the case
+routes.rb
+<% @posts.each do |post| %>
+  <%= render 'middle', :post => post %>
+<% end %>
