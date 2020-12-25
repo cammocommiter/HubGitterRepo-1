@@ -1,8 +1,2 @@
-a = [1,2,3,4,5]
-a.include?(3)   # => true
-a.include?(9)   # => false
-
->> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
-=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
->> hash.values
-=> [["a", "b", "c"], ["b", "c"]]
+foo[0...100]
+flash.now[:notice]
