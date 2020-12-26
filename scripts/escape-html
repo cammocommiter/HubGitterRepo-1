@@ -1,2 +1,3 @@
-params, headers, env, xhr, format
-post.new_record?
+gem list rhc --remote --all
+
+after_create
