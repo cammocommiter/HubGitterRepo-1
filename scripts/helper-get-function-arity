@@ -1,23 +1,8 @@
-module Crawler
-  def self.logger
-    @logger
-  end
-  def self.logger=(logger)
-    @logger = logger
-  end
+hash_object = objects.each_with_object({}) do |obj, hash| 
+  hash[obj.object_id] = obj
 end
 
-class Foo
-  private
-  def bar(value)
-    puts "value = #{value}"
-  end
-end
+[1, 2, 3, 4, 5].map { |index| hash_object[index] }
+#=> array of objects in id's order
 
-f = Foo.new
-begin
-  f.bar("This won't work")
-rescue Exception=>e
-  puts "That didn't work: #{e}"
-end
-f.instance_eval{ bar("But this does") }
+String#encode
