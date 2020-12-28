@@ -1,4 +1,2 @@
-routes.rb
-<% @posts.each do |post| %>
-  <%= render 'middle', :post => post %>
-<% end %>
+Date
+puts
