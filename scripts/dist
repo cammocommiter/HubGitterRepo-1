@@ -1,2 +1,6 @@
-rbenv
-make install
+if __FILE__ == $0
+  x = SweetClass.new(ARGV)
+  x.run # or go, or whatever
+end
+
+from
