@@ -1,4 +1,2 @@
-open
-var = "Value"
-str = "a test Value"
-p str.gsub( /#{var}/, 'foo' )   # => "a test foo"
+DateTime#to_date
+nano /usr/local/Library/brew.rb
