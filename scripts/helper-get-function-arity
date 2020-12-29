@@ -1,8 +1,2 @@
-hash_object = objects.each_with_object({}) do |obj, hash| 
-  hash[obj.object_id] = obj
-end
-
-[1, 2, 3, 4, 5].map { |index| hash_object[index] }
-#=> array of objects in id's order
-
-String#encode
+<<-
+brew style
