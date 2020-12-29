@@ -1,2 +1,2 @@
-spec_helper.rb
-change_column :users, :admin, :boolean, :default => false
+number_with_delimiter
+params[:foo]
