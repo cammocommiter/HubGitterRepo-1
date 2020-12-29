@@ -1,5 +1,4 @@
-Gemfile
-require 'date'
+arr = ['x', 'o', 'x', '.', '.', 'o', 'x']
+p arr.each_index.select{|i| arr[i] == 'x'} # =>[0, 2, 6]
 
-date = DateTime.parse("2011-05-19 10:30:14")
-formatted_date = date.strftime('%a %b %d %H:%M:%S %Z %Y')
+%q
