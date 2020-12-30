@@ -1,6 +1,3 @@
-f = Nokogiri::XML.fragment(str)
+a === b
 
-f.search('.//img').remove
-puts f
-
-wc -l
+irb
