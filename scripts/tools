@@ -1,16 +1,2 @@
-nil?
-module Site
-  @@name = "StackOverflow"
-
-  def self.setName(value)
-    @@name = value
-  end
-
-  def self.name
-    @@name
-  end
-end
-
-Site.name            # => "StackOverflow"
-Site.setName("Test")
-Site.name            # => "Test"
+rvm --help
+@foo ||= ...
