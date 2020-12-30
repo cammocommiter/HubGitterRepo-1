@@ -1,2 +1,4 @@
-DateTime#to_date
-nano /usr/local/Library/brew.rb
+text = 'The quick brown fox jumps over the lazy dog.'
+puts text.length > 25 ? 'Too many characters' : 'Accepted'
+
+openssl enc
