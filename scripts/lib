@@ -1,3 +1,2 @@
-<%= f.hidden_field :service, :value => "test" %>
-
-sudo apt-get install libxslt-dev libxml2-dev
+uniq
+libjson-ruby
