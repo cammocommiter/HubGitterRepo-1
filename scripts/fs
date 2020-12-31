@@ -1,1 +1,8 @@
-def this; end
+xcode-select
+class SillyHash < Hash
+
+  def [](key)
+    super.reverse
+  end
+
+end
