@@ -1,4 +1,2 @@
-$ which jekyll
-# /path/to/rvm/gems/ruby-version/bin/jekyll
-
-IN
+brew style
+consider_all_requests_local
