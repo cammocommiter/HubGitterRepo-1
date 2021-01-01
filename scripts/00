@@ -1,2 +1,2 @@
-=>
-extend
+:main:
+puts Dir.pwd
