@@ -1,2 +1,6 @@
-*
-Time
+content_type
+lam = lambda { puts "Hello world"}
+lam.class
+
+#output is
+=> Proc
