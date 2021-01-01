@@ -1,6 +1,4 @@
-sudo apt-get install libmysql-ruby libmysqlclient-dev
-
-class Person
-  attr_accessor :age
-  ...
-end
+/spec
+named_scope :admin, (lambda do |company_id| 
+  {:conditions => ['company_id = ?', company_id]}
+end)
