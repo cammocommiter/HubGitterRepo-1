@@ -1,6 +1,6 @@
-content_type
-lam = lambda { puts "Hello world"}
-lam.class
+a = t               # => [1, 2, 3, 4]
+a.first a.size - 1  # => [1, 2, 3]
 
-#output is
-=> Proc
+require 'cgi'
+
+CGI::parse('param1=value1&param2=value2&param3=value3')
