@@ -1,4 +1,2 @@
-text = 'The quick brown fox jumps over the lazy dog.'
-puts text.length > 25 ? 'Too many characters' : 'Accepted'
-
-openssl enc
+open
+sudo apt-get install vim-nox;
