@@ -1,1 +1,6 @@
-def this; end
+h1 = {:a => :A, :b => :B, :c => :C, :d => :D}
+h2 = h1.select {|key, value| [:b, :d, :e, :f].include?(key) } # => {:b=>:B, :d=>:D} 
+h1 = Hash[h1.to_a - h2.to_a] # => {:a=>:A, :c=>:C} 
+
+irb(main):001:0> ?c
+=> "c"
