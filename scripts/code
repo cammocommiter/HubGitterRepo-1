@@ -1,2 +1,11 @@
-foo[0...100]
-flash.now[:notice]
+10.minutes.ago
+2.days.since
+
+@var = "Hi"
+puts "#@var there!"  #=> "Hi there!"
+
+@@var = "Hi"
+puts "#@@var there!" #=> "Hi there!"
+
+$var = "Hi"
+puts "#$var there!"  #=> "Hi there!"
