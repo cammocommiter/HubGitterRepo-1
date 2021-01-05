@@ -1,7 +1,4 @@
-ages = { 'Bruce' => 32, 'Clark' => 28 }
-mappings = { 'Bruce' => 'Bruce Wayne', 'Clark' => 'Clark Kent' }
+irb[0]> x = (1..1000000000).to_a
+[printout out the whole array]
 
-ages.transform_keys(&mappings.method(:[]))
-#=> { 'Bruce Wayne' => 32, 'Clark Kent' => 28 }
-
-send
+MyModule.constants.select {|c| MyModule.const_get(c).is_a? Class}
