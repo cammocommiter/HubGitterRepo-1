@@ -1,3 +1,2 @@
-some_object.instance_variable_get("@#{name}")
-
-h
+l
+attr_accessor
