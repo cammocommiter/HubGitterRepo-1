@@ -1,2 +1,2 @@
-db:create
--v
+gets
+puts
