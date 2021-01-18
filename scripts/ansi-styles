@@ -1,3 +1,8 @@
-"name LIKE '%?%' OR postal_code LIKE '%?%'", search, search
+word = "Now is the,time for'all good people"
+word.split(/[\s,']/)
+ => ["Now", "is", "the", "time", "for", "all", "good", "people"] 
 
-install
+$ gem sources
+*** CURRENT SOURCES ***
+
+https://rubygems.org/
