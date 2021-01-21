@@ -1,11 +1,2 @@
-10.minutes.ago
-2.days.since
-
-@var = "Hi"
-puts "#@var there!"  #=> "Hi there!"
-
-@@var = "Hi"
-puts "#@@var there!" #=> "Hi there!"
-
-$var = "Hi"
-puts "#$var there!"  #=> "Hi there!"
+require_relative
+array.slice(begin [, end])
