@@ -1,2 +1,3 @@
-title
-sudo apt-get install libpq-dev
+a.gsub!(/[^0-9A-Za-z]/, '')
+
+gemfile
