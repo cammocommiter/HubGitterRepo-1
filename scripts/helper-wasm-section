@@ -1,8 +1,3 @@
-my_array.each_with_index do |item, index|
-    if index == 0
-        # do something with the first item
-    end
-    # common stuff
-end
+time = Time.now.getutc
 
-mkmf
+str.rjust(integer, padstr=' ') → new_str
