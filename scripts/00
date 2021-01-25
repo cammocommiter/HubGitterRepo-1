@@ -1,2 +1,5 @@
-:main:
-puts Dir.pwd
+h = { :$in => array }
+h = { :'a.b' => 'c' }
+h[:s] = 42
+
+pluck
