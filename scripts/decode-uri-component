@@ -1,2 +1,4 @@
-File.expand_path(__FILE__)}
-Class
+sudo apt-get --purge remove ruby-rvm
+sudo rm -rf /usr/share/ruby-rvm /etc/rvmrc /etc/profile.d/rvm.sh
+
+ruby1.9.1-dev
