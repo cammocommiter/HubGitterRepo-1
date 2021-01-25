@@ -1,6 +1,5 @@
-h1 = {:a => :A, :b => :B, :c => :C, :d => :D}
-h2 = h1.select {|key, value| [:b, :d, :e, :f].include?(key) } # => {:b=>:B, :d=>:D} 
-h1 = Hash[h1.to_a - h2.to_a] # => {:a=>:A, :c=>:C} 
+hs.reduce({}) {|h,pairs| pairs.each {|k,v| (h[k] ||= []) << v}; h}
 
-irb(main):001:0> ?c
-=> "c"
+hs.map(&:to_a).flatten(1).reduce({}) {|h,(k,v)| (h[k] ||= []) << v; h}
+
+Net::HTTP
