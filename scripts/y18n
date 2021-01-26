@@ -1,3 +1,2 @@
-gem 'rails', '3.1.0.rc4’
-
-User.where.not(id: id)
+include?
+::new
