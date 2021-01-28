@@ -1,7 +1,13 @@
-before { skip }
-# or 
-xdescribe
-# or 
-xcontext
+class Hash
+  def compact
+    delete_if { |k, v| v.nil? }
+  end
+end
 
-"123".split(//).last(5).to_s
+$ sudo vi /etc/paths
+/usr/local/bin
+/usr/local/sbin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
