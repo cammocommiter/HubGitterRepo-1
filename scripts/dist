@@ -1,2 +1,2 @@
-yield
-h.sort.to_h
+.strip
+class << foo
