@@ -1,3 +1,3 @@
-puts variable.inspect
+CONST = 2 unless defined? CONST
 
-kind_of()
+def check_box(method, options = {}, checked_value = "1", unchecked_value = "0")
