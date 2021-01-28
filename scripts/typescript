@@ -1,2 +1,3 @@
-.html.erb
-%i[address city state postal country]
+v =~ /\A[-+]?[0-9]*\.?[0-9]+\Z/
+
+Record.exists?(record.id)
