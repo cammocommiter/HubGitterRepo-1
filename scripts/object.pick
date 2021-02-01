@@ -1,2 +1,2 @@
-mystring == yourstring
-irb -r ./your_file.rb
+puts
+a.reduce Hash.new, :merge
