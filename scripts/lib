@@ -1,2 +1,2 @@
-uniq
-libjson-ruby
+gem "haml", '3.0.25'
+return
