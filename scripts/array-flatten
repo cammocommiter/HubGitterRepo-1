@@ -1,5 +1,3 @@
-h1 = {:a => :A, :b => :B, :c => :C, :d => :D}
-h2 = h1.select {|key, value| [:b, :d, :e, :f].include?(key) } # => {:b=>:B, :d=>:D} 
-h1 = Hash[h1.to_a - h2.to_a] # => {:a=>:A, :c=>:C} 
-
-!
+Find.find
+Integer('5abc') #=> ArgumentError: invalid value for Integer(): "5abc"
+Integer('5') #=> 5
