@@ -1,2 +1,8 @@
-require_relative
-array.slice(begin [, end])
+hash = {:item1 => 1}
+
+irb> [1,2,3].each { |x| }
+  => [1, 2, 3]
+irb> x
+NameError: undefined local variable or method `x' for main:Object
+    from (irb):2
+    from :0
