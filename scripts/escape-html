@@ -1,2 +1,4 @@
-instance_eval
-return hashValue.ToString();
+$ which jekyll
+# /path/to/rvm/gems/ruby-version/bin/jekyll
+
+*
