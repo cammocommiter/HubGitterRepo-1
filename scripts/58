@@ -1,1 +1,2 @@
-def this; end
+class << something
+const_defined?
