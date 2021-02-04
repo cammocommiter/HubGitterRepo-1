@@ -1,25 +1,16 @@
-&:
-class LogFileReader
-  def self.create type
-    case type 
-    when :git
-      GitLogFileReader.new
-    when :bzr
-      BzrLogFileReader.new
-    else
-      raise "Bad log file type: #{type}"
-    end
+#!/usr/bin/env ruby
+
+puts "$0            : #{$0}"
+puts "__FILE__      : #{__FILE__}"
+puts "$PROGRAM_NAME : #{$PROGRAM_NAME}"
+
+class A
+  class << self
+    puts self # self is the singleton class of A
   end
 end
 
-class GitLogFileReader < LogFileReader
-  def display
-    puts "I'm a git log file reader!"
-  end
-end
-
-class BzrLogFileReader < LogFileReader
-  def display
-    puts "A bzr log file reader..."
-  end
+a = A.new
+class << a
+  puts self # now it's the singleton class of object a
 end
