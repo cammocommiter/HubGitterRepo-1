@@ -1,4 +1,7 @@
-$ which jekyll
-# /path/to/rvm/gems/ruby-version/bin/jekyll
+> 208 % 11
+=> 10
 
-*
+if __FILE__ == $0
+  x = SweetClass.new(ARGV)
+  x.run # or go, or whatever
+end
