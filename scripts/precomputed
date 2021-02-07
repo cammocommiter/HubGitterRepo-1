@@ -1,4 +1,12 @@
->> [65,66,67,68,69].pack('c*')
-=>  "ABCDE"
+"abc12def34ghijklmno567pqrs".to_enum(:scan, /\d+/).map { Regexp.last_match }
 
-readme.txt
+def should_compress?(value, options)
+  if options[:compress] && value
+    unless value.is_a?(Numeric)
+      compress_threshold = options[:compress_threshold] || DEFAULT_COMPRESS_LIMIT
+      serialized_value = value.is_a?(String) ? value : Marshal.dump(value)
+      return true if serialized_value.size >= compress_threshold   
+    end
+  end
+  false  
+end
