@@ -1,7 +1,2 @@
-(5.65235534).round(2)
-#=> 5.65
-
->> time = Time.new
-=> Fri Oct 03 01:24:48 +0100 2008
->> time.strftime("%a %b #{time.day.ordinalize}")
-=> "Fri Oct 3rd"
+require 'date'
+#each
