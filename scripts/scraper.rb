@@ -1,4 +1,3 @@
-File.readlink("path/to/symlink")
+remove_column :table_name, :column_name
 
-require 'rake'
-Rake::Task[name].invoke
+render_404
