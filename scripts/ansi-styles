@@ -1,3 +1,5 @@
-CONST = 2 unless defined? CONST
+clients.select{|key, hash| hash["client_id"] == "2180" }
+#=> [["orange", {"client_id"=>"2180"}]]
 
-def check_box(method, options = {}, checked_value = "1", unchecked_value = "0")
+a = ["item 1", "item 2", "item 3", "item 4"]
+h = Hash[*a] # => { "item 1" => "item 2", "item 3" => "item 4" }
