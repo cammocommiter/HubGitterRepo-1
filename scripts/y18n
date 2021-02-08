@@ -1,2 +1,2 @@
-modelb
-instance_eval
+next
+DateTime.strptime
