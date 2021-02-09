@@ -1,5 +1,8 @@
-clients.select{|key, hash| hash["client_id"] == "2180" }
-#=> [["orange", {"client_id"=>"2180"}]]
+cat = String.new("cat")
+def cat.speak
+    'miaow'
+end
+cat.speak #=> "miaow" 
+cat.singleton_methods #=> ["speak"] 
 
-a = ["item 1", "item 2", "item 3", "item 4"]
-h = Hash[*a] # => { "item 1" => "item 2", "item 3" => "item 4" }
+Hash::[]
