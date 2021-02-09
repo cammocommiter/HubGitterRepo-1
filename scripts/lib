@@ -1,2 +1,2 @@
-gem "haml", '3.0.25'
-return
+define_method
+Array#each
