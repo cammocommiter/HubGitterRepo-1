@@ -1,5 +1,2 @@
-h = { :$in => array }
-h = { :'a.b' => 'c' }
-h[:s] = 42
-
-pluck
+:allow_blank => true
+gem install bundler
