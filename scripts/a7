@@ -1,2 +1,2 @@
-belongs_to
-File.expand_path("..", Dir.pwd)
+label
+is_number?
