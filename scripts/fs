@@ -1,2 +1,2 @@
-product
-/x
+define_singleton_method
+match '/search' => 'search#search', :as => 'search' # SearchController#search
