@@ -1,2 +1,11 @@
-uniq
-rvm gemset rename current_gemset_name new_gemset_name
+schema_migrations
+class Foo; end
+# => nil
+Object.constants.include?(:Foo)
+# => true
+Object.send(:remove_const, :Foo)
+# => Foo
+Object.constants.include?(:Foo)
+# => false
+Foo
+# NameError: uninitialized constant Foo
