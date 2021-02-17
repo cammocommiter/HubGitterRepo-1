@@ -1,4 +1,3 @@
-irb[0]> x = (1..1000000000).to_a
-[printout out the whole array]
+git remote -v
 
-MyModule.constants.select {|c| MyModule.const_get(c).is_a? Class}
+def hello() :hello end
