@@ -1,3 +1,2 @@
-clazz = 'ExampleClass'.constantize
-
-rake db:test:prepare
+Dir.pwd
+reject
