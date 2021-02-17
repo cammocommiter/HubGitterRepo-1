@@ -1,5 +1,3 @@
-a.action if object.method?
+hash = JSON.parse string
 
-task :test do
-  sh "ls"
-end
+yield
