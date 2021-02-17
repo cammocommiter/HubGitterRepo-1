@@ -1,16 +1,4 @@
-#!/usr/bin/env ruby
+"мария".capitalize #=> Мария
 
-puts "$0            : #{$0}"
-puts "__FILE__      : #{__FILE__}"
-puts "$PROGRAM_NAME : #{$PROGRAM_NAME}"
-
-class A
-  class << self
-    puts self # self is the singleton class of A
-  end
-end
-
-a = A.new
-class << a
-  puts self # now it's the singleton class of object a
-end
+update_without_callbacks
+create_without_callbacks
