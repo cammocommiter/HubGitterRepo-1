@@ -1,2 +1,2 @@
-label
-is_number?
+os
+Haml::Template::options[:ugly] = true
