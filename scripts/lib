@@ -1,2 +1,2 @@
-define_method
-Array#each
+nil
+require 'thread'; q = Queue.new
