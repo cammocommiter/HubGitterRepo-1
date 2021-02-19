@@ -1,3 +1,9 @@
-hash = JSON.parse string
+module GemName
 
-yield
+  class AuthenticationError < StandardError; end
+  class InvalidUsername < AuthenticationError; end
+
+end
+
+# application.rb
+config.time_zone = 'Eastern Time (US & Canada)'
