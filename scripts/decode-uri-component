@@ -1,9 +1,3 @@
-module GemName
-
-  class AuthenticationError < StandardError; end
-  class InvalidUsername < AuthenticationError; end
-
-end
-
-# application.rb
-config.time_zone = 'Eastern Time (US & Canada)'
+shadowing_lvar_gen
+irb[0]> x = (1..1000000000).to_a
+[printout out the whole array]
