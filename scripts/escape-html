@@ -1,7 +1,2 @@
-> 208 % 11
-=> 10
-
-if __FILE__ == $0
-  x = SweetClass.new(ARGV)
-  x.run # or go, or whatever
-end
+Haml::Template::options[:ugly] = true
+Mysql2::Error This connection is still waiting for a result
