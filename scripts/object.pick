@@ -1,2 +1,2 @@
-puts
-a.reduce Hash.new, :merge
+:param
+nano /usr/local/Library/brew.rb
