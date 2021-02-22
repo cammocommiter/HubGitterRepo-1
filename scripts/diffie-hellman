@@ -1,11 +1,7 @@
-schema_migrations
-class Foo; end
-# => nil
-Object.constants.include?(:Foo)
-# => true
-Object.send(:remove_const, :Foo)
-# => Foo
-Object.constants.include?(:Foo)
-# => false
-Foo
-# NameError: uninitialized constant Foo
+>> str = "foo  bar   bar      baaar"
+=> "foo  bar   bar      baaar"
+>> str.split.join(" ")
+=> "foo bar bar baaar"
+>>
+
+gem dependency
