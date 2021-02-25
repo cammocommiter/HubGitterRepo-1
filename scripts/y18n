@@ -1,2 +1,15 @@
-next
-DateTime.strptime
+class SillyHash < Hash
+
+  def [](key)
+    super.reverse
+  end
+
+end
+
+>> Process.kill 0, 370
+=> 1
+>> Process.kill 0, 2
+Errno::ESRCH: No such process
+    from (irb):5:in `kill'
+    from (irb):5
+>> 
