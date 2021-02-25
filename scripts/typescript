@@ -1,3 +1,11 @@
-v =~ /\A[-+]?[0-9]*\.?[0-9]+\Z/
+to_ary
+# encoding: UTF-8
+File.open("test.txt", "w:UTF-8") do |f| 
+  f.write "test \u00A9 foo" 
+end 
 
-Record.exists?(record.id)
+#Encoding.filesystem = "UTF-8"
+p Encoding.find("filesystem") 
+File.open("test.txt", "r:UTF-8") do |f| 
+  puts f.read 
+end 
