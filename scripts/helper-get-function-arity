@@ -1,2 +1,2 @@
-$
-true
+attr_accessor
+#any?
