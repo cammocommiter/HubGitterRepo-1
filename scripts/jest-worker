@@ -1,4 +1,2 @@
-"мария".capitalize #=> Мария
-
-update_without_callbacks
-create_without_callbacks
+update_column
+core_ext
