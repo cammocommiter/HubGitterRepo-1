@@ -1,2 +1,3 @@
-# TODO
-Hash[original_hash.to_a.sample(n)]
+respond_to
+distance_of_time_in_words(3600)
+ => "about 1 hour"
