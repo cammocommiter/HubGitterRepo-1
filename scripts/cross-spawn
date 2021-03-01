@@ -1,6 +1,9 @@
-a = t               # => [1, 2, 3, 4]
-a.first a.size - 1  # => [1, 2, 3]
+class Ask
+  def self.make_permalink(phrase)
+    phrase.strip.downcase.gsub! /\ +/, '-'
+  end
+end
 
-require 'cgi'
+Ask.make_permalink("make a slug out of this line")
 
-CGI::parse('param1=value1&param2=value2&param3=value3')
+curl -sSL https://get.rvm.io | bash -s stable --ruby
