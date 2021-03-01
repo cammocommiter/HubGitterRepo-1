@@ -1,2 +1,4 @@
-os
-Haml::Template::options[:ugly] = true
+gem 'rails', '3.1.0.rc4’
+
+def dog
+end
