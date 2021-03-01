@@ -1,3 +1,4 @@
-Find.find
-Integer('5abc') #=> ArgumentError: invalid value for Integer(): "5abc"
-Integer('5') #=> 5
+respond_to_missing?
+gem 'ruby-oci8', '=1.0.7'
+require 'oci8'           # example is confusing; file required (oci8.rb) is not 
+                         # same name as gem, as is frequently the case
