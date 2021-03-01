@@ -1,3 +1,5 @@
-a = {'Peter' => 32, 'Quagmire' => 'asdas'}
-
-File.open(filename).grep(/string/)
+f=obj.m;f(x)
+create_table :my_table, id: false do |t|
+  t.string :key_column
+  t.string :value_column
+end
