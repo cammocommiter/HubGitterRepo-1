@@ -1,3 +1,8 @@
-remove_column :table_name, :column_name
+log_database_production:
+  adapter: mysql
+  host: other_host
+  username: logmein
+  password: supersecret
+  database: logs
 
-render_404
+Digest::MD5
