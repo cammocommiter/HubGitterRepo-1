@@ -1,4 +1,2 @@
-UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
-task :migrate, :roles => :db, :only => { :primary => true } do
-  # ...
-end
+config/application.rb
+<%= render :partial => 'form', :locals => { :item => @item } %>
