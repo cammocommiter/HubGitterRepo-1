@@ -1,3 +1,2 @@
-puts Gem.loaded_specs["activesupport"].version
-
-=>
+NaN
+content_type
