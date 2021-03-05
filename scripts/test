@@ -1,8 +1,2 @@
-def valid_json?(json)
-    JSON.parse(json)
-    return true
-  rescue JSON::ParserError => e
-    return false
-end
-
-@post = Post.order("created_at").last
+config.cache_classes
+rbenv exec bundle exec command
