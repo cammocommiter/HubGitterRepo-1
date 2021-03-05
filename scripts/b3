@@ -1,10 +1,2 @@
-instance_variable_get
-class Booking < ActiveRecord::Base
-  has_many   :booking_payments
-  ....
-  def destroy
-    raise "Cannot delete booking with payments" unless booking_payments.count == 0
-    # ... ok, go ahead and destroy
-    super
-  end
-end
+consider_all_requests_local
+log/test.log
