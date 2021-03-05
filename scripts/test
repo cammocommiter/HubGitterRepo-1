@@ -1,2 +1,2 @@
-config.cache_classes
-rbenv exec bundle exec command
+Person
+pretty_generate()
