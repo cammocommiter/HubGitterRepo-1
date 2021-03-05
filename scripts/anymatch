@@ -1,2 +1,10 @@
-intern
-ApplicationController
+foo = Proc.new { |prompt| prompt.echo = false }
+new_pass = ask("Enter your new password: ", &foo)
+verify_pass = ask("Enter again to verify: ", &foo)
+
+class ApplicationController < ActionController::Base
+  def render *args
+    add_breadcrumbs
+    super
+  end
+end
