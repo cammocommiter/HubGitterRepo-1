@@ -1,1 +1,3 @@
-def this; end
+puts 'abcdefg'.start_with?('abc')  #=> true
+
+(end_date - start_date).to_i
