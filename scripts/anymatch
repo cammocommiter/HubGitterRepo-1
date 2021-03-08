@@ -1,10 +1,15 @@
-foo = Proc.new { |prompt| prompt.echo = false }
-new_pass = ask("Enter your new password: ", &foo)
-verify_pass = ask("Enter again to verify: ", &foo)
+Driver.columns_hash
+# sample array
+a=["aa","bb","cc","bb","bb","cc"]
 
-class ApplicationController < ActionController::Base
-  def render *args
-    add_breadcrumbs
-    super
-  end
+# make the hash default to 0 so that += will work correctly
+b = Hash.new(0)
+
+# iterate over the array, counting duplicate entries
+a.each do |v|
+  b[v] += 1
+end
+
+b.each do |k, v|
+  puts "#{k} appears #{v} times"
 end
