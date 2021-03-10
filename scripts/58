@@ -1,2 +1,5 @@
-class << something
-const_defined?
+irb
+>> str = '[\w\s]+'
+ => "[\\w\\s]+" 
+>> Regexp.new str
+ => /[\w\s]+/ 
