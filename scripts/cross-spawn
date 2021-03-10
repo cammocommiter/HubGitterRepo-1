@@ -1,9 +1,3 @@
-class Ask
-  def self.make_permalink(phrase)
-    phrase.strip.downcase.gsub! /\ +/, '-'
-  end
-end
+(cheeses & foods).empty?
 
-Ask.make_permalink("make a slug out of this line")
-
-curl -sSL https://get.rvm.io | bash -s stable --ruby
+(end_date - start_date).to_i
