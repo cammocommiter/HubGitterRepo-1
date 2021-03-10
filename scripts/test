@@ -1,3 +1,6 @@
-system "clear" || system "cls"
+module TagsHelper
+end
 
-"foo".methods
+puts object_id
+@a = 'Look, I have instance variables!'
+puts @a
