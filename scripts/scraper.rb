@@ -1,8 +1,6 @@
-log_database_production:
-  adapter: mysql
-  host: other_host
-  username: logmein
-  password: supersecret
-  database: logs
-
-Digest::MD5
+CHANGELOG
+class Foo
+  def test_method
+    __method__
+  end
+end
