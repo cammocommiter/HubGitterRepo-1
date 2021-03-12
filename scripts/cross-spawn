@@ -1,3 +1,2 @@
-(cheeses & foods).empty?
-
-(end_date - start_date).to_i
+chars
+gem install debugger-linecache -v '1.1.2' -- --with-ruby-include=$rvm_path/src/ruby-1.9.3-p286/
