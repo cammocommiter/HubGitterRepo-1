@@ -1,3 +1,8 @@
-puts 'abcdefg'.start_with?('abc')  #=> true
+%div{:itemscope => true}
 
-(end_date - start_date).to_i
+string lastItem = list[list.Count - 1];
+foreach (string item in list) {
+    if (item != lastItem)
+        Console.WriteLine("Looping: " + item);
+    else    Console.Writeline("Lastone: " + item);
+}
