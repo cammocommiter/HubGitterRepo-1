@@ -1,2 +1,2 @@
-config/application.rb
-<%= render :partial => 'form', :locals => { :item => @item } %>
+pluck
+respond_to
