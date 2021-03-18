@@ -1,2 +1,2 @@
-/bin/sh
-scan
+update
+errors[:base] << "Error message"    
