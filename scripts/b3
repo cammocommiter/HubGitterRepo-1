@@ -1,2 +1,2 @@
-consider_all_requests_local
-log/test.log
+(end_date - start_date).to_i
+gem pristine --all
