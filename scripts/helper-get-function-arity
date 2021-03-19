@@ -1,2 +1,3 @@
-install
-imagemagick
+rvm pkg install libyaml
+
+Base64.strict_encode64()
