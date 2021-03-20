@@ -1,2 +1,2 @@
-raise
-m spec/my_spec.rb:25
+pry_debug
+instance_{eval|exec}
