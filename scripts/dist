@@ -1,2 +1,2 @@
-.strip
-class << foo
+yield
+gem update --system
