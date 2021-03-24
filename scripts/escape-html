@@ -1,3 +1,2 @@
+lambda
 gem "foo", path: "/path/to/foo"
-
-result.class.name
