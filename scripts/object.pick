@@ -1,2 +1,3 @@
-Enumerator
-!
+<%= f.hidden_field :service, :value => "test" %>
+
+"мария".capitalize #=> Мария
