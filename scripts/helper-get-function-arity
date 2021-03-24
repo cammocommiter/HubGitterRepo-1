@@ -1,3 +1,2 @@
-rvm pkg install libyaml
-
-Base64.strict_encode64()
+to_s
+sudo xcode-select -switch /
