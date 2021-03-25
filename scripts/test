@@ -1,6 +1,2 @@
-module TagsHelper
-end
-
-puts object_id
-@a = 'Look, I have instance variables!'
-puts @a
+Process
+gem update --system
