@@ -1,3 +1,10 @@
-a data-title="help" data-content="foo"
+array.map(&:cash).inject(0, &:+)
 
-*
+class CustomException < StandardError
+  def initialize(data)
+    @data = data
+  end
+end
+# => nil 
+raise CustomException.new(bla: "blupp")
+# CustomException: CustomException
