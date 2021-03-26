@@ -1,5 +1,5 @@
----
-content:
-    session: 0
+URI::MailTo::EMAIL_REGEXP
 
-data.each_slice(3) {|slice| ... }
+$ ruby --help
+[...]
+  -W[level]       set warning level; 0=silence, 1=medium, 2=verbose (default)
