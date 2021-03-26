@@ -1,12 +1,4 @@
-  context "if eligible" do
-    before { allow(subject).to receive(:eligible?).and_return(true) }
-    it { should validate_presence_of(:name) }
-  end
-
-  context "if ineligible" do
-    before { allow(subject).to receive(:eligible?).and_return(false) }
-    it { should_not validate_presence_of(:name) }
-  end
-
-gem install localtunnel
-localtunnel 3000
+rake db:test:prepare
+MYSQL=/usr/local/mysql/bin
+export PATH=$PATH:$MYSQL
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
