@@ -1,10 +1,4 @@
-array.map(&:cash).inject(0, &:+)
+DateTime.now.midnight
+DateTime.now.beginning_of_day
 
-class CustomException < StandardError
-  def initialize(data)
-    @data = data
-  end
-end
-# => nil 
-raise CustomException.new(bla: "blupp")
-# CustomException: CustomException
+-Wno-error=unused-command-line-argument-hard-error-in-future
