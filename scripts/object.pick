@@ -1,3 +1,4 @@
-<%= f.hidden_field :service, :value => "test" %>
-
-"мария".capitalize #=> Мария
+File
+array.each do |element|
+  element.do_stuff
+end
