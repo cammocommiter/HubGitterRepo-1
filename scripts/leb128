@@ -1,2 +1,2 @@
-require_relative
-rvm install 1.9.3 --with-gcc=clang
+Date
+instance_{eval|exec}
