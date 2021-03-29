@@ -1,5 +1,3 @@
-add_foreign_key
-<%= request.protocol + request.host_with_port %>
-#=> https://domain.com:3000
-<%= request.protocol + request.host %>
-#=> https://domain.com
+gem install libv8 -v '3.16.14.3' -- --with-system-v8
+
+Record.last(N)
