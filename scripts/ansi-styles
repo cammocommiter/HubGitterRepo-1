@@ -1,2 +1,2 @@
-SecureRandom
-"A".ord #=> 65
+assign_attributes
+:foo
