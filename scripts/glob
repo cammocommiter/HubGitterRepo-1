@@ -1,2 +1,2 @@
-render_views
-<<
+with_indifferent_access
+portslist: '[{"name":"ob1","port_type" ... }]'
