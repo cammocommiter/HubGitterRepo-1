@@ -1,2 +1,4 @@
-update
-errors[:base] << "Error message"    
+require 'Date'
+my_date = Date.strptime("12/22/2011", "%m/%d/%Y")
+
+No repository found at http://download.eclipse.org/releases/kepler/
