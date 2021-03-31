@@ -1,2 +1,4 @@
-pluck
-respond_to
+()
+  def self.down
+      remove_column :users, :client_id
+  end
