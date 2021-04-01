@@ -1,9 +1,3 @@
-include?
-class Object
-  def all_equals(o)
-    ops = [:==, :===, :eql?, :equal?]
-    Hash[ops.map(&:to_s).zip(ops.map {|s| send(s, o) })]
-  end
-end
+get_class_swimming_students_path('2013-01-01', '2013-02-02')
 
-"a".all_equals "a" # => {"=="=>true, "==="=>true, "eql?"=>true, "equal?"=>false}
+gem update --system 1.6.2
