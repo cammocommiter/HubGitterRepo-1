@@ -1,1 +1,2 @@
-def this; end
+tags.map(&:name.to_proc).join(' ')
+.strip
