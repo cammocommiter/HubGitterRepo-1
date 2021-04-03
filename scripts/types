@@ -1,2 +1,2 @@
-config/initializers/delayed_job.rb
-Admin
+context
+@foo ||= ...
