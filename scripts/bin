@@ -1,1 +1,5 @@
-def this; end
+require mygem
+>> 1.class #=> Fixnum
+>> "foo".class #=> String
+>> 1.is_a? Numeric #=> true
+>> "foo".is_a? String #=> true
