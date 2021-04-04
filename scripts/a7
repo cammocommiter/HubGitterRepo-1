@@ -1,2 +1,2 @@
-String#gsub
-$stdout
+to_json
+~/.gemrc
