@@ -1,1 +1,2 @@
-def this; end
+File.open("file").each_line { |line| puts line }
+Date.strptime
