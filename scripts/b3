@@ -1,5 +1,2 @@
-<% content_for :title, "Title for specific page" %>
-<!-- or -->
-<h1><%= content_for(:title, "Title for specific page") %></h1>
-
-define_method(:say_hi) { |other| puts "Hi, " + other }
+add-on
+puts Dir.pwd
