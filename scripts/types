@@ -1,2 +1,3 @@
-context
-@foo ||= ...
+puts "Melanie is a noob".count('a')  #=> 2
+
+\config\deploy.rb
