@@ -1,20 +1,2 @@
-class Tableless < ActiveRecord::Base
-  def self.columns
-    @columns ||= [];
-  end
-
-  def self.column(name, sql_type = nil, default = nil, null = true)
-    columns << ActiveRecord::ConnectionAdapters::Column.new(name.to_s, default,
-      sql_type.to_s, null)
-  end
-
-  # Override the save method to prevent exceptions.
-  def save(validate = true)
-    validate ? valid? : true
-  end
-end
-
-CSV.foreach('my_file.csv', :headers => true) do |row|
-  puts row['foo'] # prints 1 the 1st time, "blah" 2nd time, etc
-  puts row['bar'] # prints 2 the first time, 7 the 2nd time, etc
-end
+wc -l
+p [1,2,3].map(&method(:inc))
