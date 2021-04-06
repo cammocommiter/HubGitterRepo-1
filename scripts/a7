@@ -1,2 +1,3 @@
-to_json
-~/.gemrc
+a === b
+
+Date::MONTHNAMES[Date.today.month]
