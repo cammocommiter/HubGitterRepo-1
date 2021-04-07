@@ -1,2 +1,4 @@
-self.foo
-  sudo apt-get install libmagickwand-dev imagemagick
+@title = tokens[Title]
+@title.strip!
+
+ruby 2.0.0p0 (2013-02-24)
