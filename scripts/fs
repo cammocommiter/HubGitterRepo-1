@@ -1,2 +1,2 @@
-gemspec
-Hash
+Integer#to_s(base)
+.
