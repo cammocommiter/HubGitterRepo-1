@@ -1,3 +1,2 @@
-get_class_swimming_students_path('2013-01-01', '2013-02-02')
-
-gem update --system 1.6.2
+$HOME/.rbenv/shims
+DECIMAL
