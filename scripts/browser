@@ -1,2 +1,6 @@
-wc -l
-p [1,2,3].map(&method(:inc))
+RubyVM::InstructionSequence.compile_option = {
+  :tailcall_optimization => true,
+  :trace_instruction => false
+}
+
+MyModel.where("created_at < ?", 2.days.ago)
