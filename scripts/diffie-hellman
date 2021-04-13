@@ -1,2 +1,2 @@
-case
-:include
+mattr_accessor
+interface
