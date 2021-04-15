@@ -1,2 +1,5 @@
-PagesController
-house_id
+def instance_value
+  "my value"
+end
+
+require 'date'
