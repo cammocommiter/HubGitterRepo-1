@@ -1,12 +1,17 @@
-def should_compress?(value, options)
-  if options[:compress] && value
-    unless value.is_a?(Numeric)
-      compress_threshold = options[:compress_threshold] || DEFAULT_COMPRESS_LIMIT
-      serialized_value = value.is_a?(String) ? value : Marshal.dump(value)
-      return true if serialized_value.size >= compress_threshold   
-    end
-  end
-  false  
+class AbstractThing
+  MESS = "SYSTEM ERROR: method missing"
+
+  def method_one; raise MESS; end
+  def method_two; raise MESS; end
 end
 
-Time.parse(time)
+class ConcreteThing < AbstractThing
+  def method_one
+     puts "hi"
+  end
+end
+
+a = ConcreteThing.new
+a.method_two # -> raises error.
+
+to_s
