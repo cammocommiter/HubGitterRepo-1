@@ -1,1 +1,3 @@
-def this; end
+RUBY_PLATFORM == "java"
+
++
