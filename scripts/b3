@@ -1,2 +1,7 @@
-add-on
-puts Dir.pwd
+post.new_record?
+
+a= [1,1,1,2,2,3]
+delete_list = [1,3]
+delete_list.each do |del|
+    a.delete_at(a.index(del))
+end
