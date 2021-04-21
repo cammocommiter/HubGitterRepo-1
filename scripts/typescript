@@ -1,2 +1,2 @@
-let
-.strip
+.after
+return hashValue.ToString();
