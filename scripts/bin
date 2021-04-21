@@ -1,2 +1,2 @@
-Time.parse(time)
-and_call_original
+Enumerator
+Time
