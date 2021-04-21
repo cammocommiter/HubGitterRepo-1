@@ -1,1 +1,2 @@
-def this; end
+w+
+File.dirname(__FILE__)
