@@ -1,3 +1,10 @@
-spring stop
+jump_locations.should include(
+  "upper_left" => true,
+  "upper_right" => false,
+  "lower_left" => false,
+  "lower_right" => true
+)
 
-update
+require 'resque'
+
+Resque.info 
