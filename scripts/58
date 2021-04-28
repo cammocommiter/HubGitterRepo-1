@@ -1,6 +1,9 @@
-class Person
-  attr_accessor :age
-  ...
-end
+lam = lambda { puts "Hello world"}
+lam.class
 
-/bin/sh
+#output is
+=> Proc
+
+= link_to "path/to/page.html" do
+  Other page
+  %span.icon Arrow
