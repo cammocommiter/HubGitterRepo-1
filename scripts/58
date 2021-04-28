@@ -1,4 +1,6 @@
-@title = tokens[Title]
-@title.strip!
+class Person
+  attr_accessor :age
+  ...
+end
 
-ruby 2.0.0p0 (2013-02-24)
+/bin/sh
