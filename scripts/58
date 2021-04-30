@@ -1,9 +1,2 @@
-lam = lambda { puts "Hello world"}
-lam.class
-
-#output is
-=> Proc
-
-= link_to "path/to/page.html" do
-  Other page
-  %span.icon Arrow
+#==
+run "cd #{current_path} && RAILS_ENV=production unicorn_rails -c config/unicorn.rb -D"
