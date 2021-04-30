@@ -1,2 +1,5 @@
-raise
-private :xmethod
+def instance_value
+  "my value"
+end
+
+Date.civil
