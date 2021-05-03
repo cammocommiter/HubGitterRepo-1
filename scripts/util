@@ -1,10 +1,2 @@
-require 'sinatra'
-use Rack::Logger
-
-helpers do
-  def logger
-    request.logger
-  end
-end
-
-encoded_url = URI.encode(url)
+sudo chown -R $USER /usr/local
+~/.gemrc
