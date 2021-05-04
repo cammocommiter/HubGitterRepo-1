@@ -1,2 +1,13 @@
-Enumerator
-Time
+BlueCloth: 13.029987s total time, 00.130300s average
+   Maruku: 08.424132s total time, 00.084241s average
+RDiscount: 00.082019s total time, 00.000820s average
+
+irb(main):001:0> a = (1..4).to_a
+=> [1, 2, 3, 4]
+irb(main):002:0> a.join("\n")
+=> "1\n2\n3\n4"
+irb(main):003:0> puts a.join("\n")
+1
+2
+3
+4
