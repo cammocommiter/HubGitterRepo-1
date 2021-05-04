@@ -1,2 +1,2 @@
-uniq
-send
+ls -la /usr/bin/ruby
+continue
