@@ -1,2 +1,2 @@
-link_to
-Date::MONTHNAMES[Date.today.month]
+Set#each
+included
