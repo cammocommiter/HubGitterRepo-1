@@ -1,3 +1,2 @@
+HTTP_PROXY
 attr_accessor
-gem install eventmachine --pre
-gem install thin
