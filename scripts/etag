@@ -1,1 +1,2 @@
-def this; end
+pid
+to_s
