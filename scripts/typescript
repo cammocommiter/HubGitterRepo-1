@@ -1,2 +1,2 @@
-.after
-return hashValue.ToString();
+assign_attributes
+:foo
