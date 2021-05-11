@@ -1,3 +1,4 @@
-a === b
-
-Date::MONTHNAMES[Date.today.month]
+:help ctags
+@search = Model.new_search(params[:search])
+@search.condition.field_starts_with = "prefix"
+@models = @search.all
