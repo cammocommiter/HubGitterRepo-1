@@ -1,3 +1,7 @@
-file_contents = CSV.read("csvfile.csv", col_sep: "$", encoding: "ISO8859-1")
+class Hash
+  def compact
+    delete_if { |k, v| v.nil? }
+  end
+end
 
-array.slice(begin [, end])
+Kernel#caller
