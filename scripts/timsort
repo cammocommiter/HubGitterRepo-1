@@ -1,2 +1,2 @@
-w+
-File.dirname(__FILE__)
+brew install ruby
+-v
