@@ -1,6 +1,11 @@
-sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
-sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
+irb(main):001:0> a = (1..4).to_a
+=> [1, 2, 3, 4]
+irb(main):002:0> a.join("\n")
+=> "1\n2\n3\n4"
+irb(main):003:0> puts a.join("\n")
+1
+2
+3
+4
 
-gem 'ruby-oci8', '=1.0.7'
-require 'oci8'           # example is confusing; file required (oci8.rb) is not 
-                         # same name as gem, as is frequently the case
+to_s
