@@ -1,7 +1,16 @@
-post.new_record?
+x=5
+def my_callback(a, b, c, status_code)
+  puts "did stuff with #{a}, #{b}, #{c} and got #{status_code}"
+end
 
-a= [1,1,1,2,2,3]
-delete_list = [1,3]
-delete_list.each do |del|
-    a.delete_at(a.index(del))
+def do_stuff(a, b, c, callback)
+  sum = a + b + c
+  callback.call(a, b, c, sum)
+end
+
+def main
+  a = 1
+  b = 2
+  c = 3
+  do_stuff(a, b, c, method(:my_callback))
 end
