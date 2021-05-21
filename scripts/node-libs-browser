@@ -1,3 +1,2 @@
-[1..-1]
-
-Record.exists?(record.id)
+last
+ haystack.include?(needle1) || haystack.include?(needle2)
