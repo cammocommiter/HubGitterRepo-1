@@ -1,10 +1,9 @@
-jump_locations.should include(
-  "upper_left" => true,
-  "upper_right" => false,
-  "lower_left" => false,
-  "lower_right" => true
-)
+Date.civil
+# bad
+do_something if !some_condition
 
-require 'resque'
+# bad
+do_something if not some_condition
 
-Resque.info 
+# good
+do_something unless some_condition
