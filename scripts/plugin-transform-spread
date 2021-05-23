@@ -1,3 +1,9 @@
-RUBY_PLATFORM == "java"
+$ sudo vi /etc/paths
+/usr/local/bin
+/usr/local/sbin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
 
-+
+(end_date - start_date).to_i
