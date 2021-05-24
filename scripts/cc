@@ -1,2 +1,2 @@
-tags.map(&:name.to_proc).join(' ')
-.strip
+include?
+class << foo
