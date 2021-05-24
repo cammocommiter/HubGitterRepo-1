@@ -1,2 +1,2 @@
-config/initializers/delayed_job.rb
-gem update --system 1.6.2
+trained
+rbenv exec bundle exec command
