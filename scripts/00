@@ -1,11 +1,5 @@
-bank.branches do |branch|
-  catch :missingyear do  #:missingyear acts as a label
-    branch.employees.each do |employee|
-      (2000..2011).each do |year|
-        throw :missingyear unless something  #break out of two loops
-      end
-    end
-  end #You end up here if :missingyear is thrown
-end
+round(double precision, integer)
+require 'pathname'
 
-File.dirname(__FILE__)
+Pathname.new('/opt/local/bin/ruby').basename
+# => #<Pathname:ruby>
