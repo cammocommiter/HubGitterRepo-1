@@ -1,2 +1,11 @@
-last
- haystack.include?(needle1) || haystack.include?(needle2)
+output
+# encoding: UTF-8
+File.open("test.txt", "w:UTF-8") do |f| 
+  f.write "test \u00A9 foo" 
+end 
+
+#Encoding.filesystem = "UTF-8"
+p Encoding.find("filesystem") 
+File.open("test.txt", "r:UTF-8") do |f| 
+  puts f.read 
+end 
