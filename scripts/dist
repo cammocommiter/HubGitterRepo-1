@@ -1,2 +1,6 @@
-yield
-gem update --system
+has_many  :active_events, :through => :event_users, 
+          :class_name => "Event", 
+          :source => :event, 
+          :conditions => ['event_users.active = ?',true]
+
+gem install nokogiri -- --use-system-libraries=true --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libxml2/
