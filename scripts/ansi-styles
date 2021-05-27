@@ -1,2 +1,5 @@
-ls -la /usr/bin/ruby
-continue
+rails destroy controller lalala
+rails destroy model yadayada
+rails destroy scaffold hohoho
+
+each_with_index
