@@ -1,15 +1,11 @@
-update_attribute
-require 'nokogiri'
+include ActionView::Helpers
 
-html = '
-<html>
-  <body>
-    <p>foo</p>
-    <p>bar</p>
-  </body>
-</html>
-'
+class A
+  define_singleton_method :loudly do |message|
+    puts message.upcase
+  end
+end
 
-doc = Nokogiri::HTML(html)
-doc.at('p:contains("bar")').text.strip
-=> "bar"
+A.loudly "my message"
+
+# >> MY MESSAGE
