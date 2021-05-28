@@ -1,8 +1,5 @@
-class Example
-  def initialize(test='hey')
-    singleton = class << self; self end
-    singleton.send :define_method, :say_hello, lambda { test }
-  end
-end
+rake assets:clean
 
-sub
+d = Date.new(2012, 8, 29)
+t = Time.now
+dt = DateTime.new(d.year, d.month, d.day, t.hour, t.min, t.sec, t.zone)
