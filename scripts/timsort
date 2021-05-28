@@ -1,2 +1,10 @@
-brew install ruby
--v
+has_many :memberships, dependent: :delete_all
+
+class A
+end
+
+class B < A
+end
+
+B.superclass # => A
+B.superclass.name # => "A"
