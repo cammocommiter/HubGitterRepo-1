@@ -1,1 +1,3 @@
-def this; end
+Record.exists?(record.id)
+
+bundle clean
