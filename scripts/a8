@@ -1,16 +1,19 @@
-RUBY_PLATFORM
-require 'pty'
-cmd = "blender -b mball.blend -o //renders/ -F JPEG -x 1 -f 1" 
-begin
-  PTY.spawn( cmd ) do |stdout, stdin, pid|
-    begin
-      # Do stuff with the output here. Just printing to show it works
-      stdout.each { |line| print line }
-    rescue Errno::EIO
-      puts "Errno:EIO error, but this probably just means " +
-            "that the process has finished giving output"
-    end
+# app/controllers/foos_controller.rb:
+class FoosController < ApplicationController
+
+  def show
+    @foo = Foo.find(...)
   end
-rescue PTY::ChildExited
-  puts "The child process exited!"
+
+end
+
+#app/views/foos/show.html.erb:
+...
+<%= @foo.bar %>
+...
+
+class Hash
+  def compact
+    delete_if { |k, v| v.nil? }
+  end
 end
