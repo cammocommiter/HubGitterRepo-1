@@ -1,1 +1,5 @@
-def this; end
+$ sudo apt-get install zlib1g-dev
+$ rvm reinstall 1.9.3
+
+Time.now.strftime("%d/%m/%Y %H:%M")
+#=> "14/09/2011 14:09"
