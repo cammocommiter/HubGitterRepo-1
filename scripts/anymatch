@@ -1,5 +1,3 @@
-def instance_value
-  "my value"
-end
+gem update --system
 
-require 'date'
+spec_helper.rb
