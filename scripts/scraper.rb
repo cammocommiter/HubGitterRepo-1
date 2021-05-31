@@ -1,5 +1,4 @@
-rails console
->> require "db/migrate/20090408054532_add_foos.rb"
->> AddFoos.new.up
-
-cat
+rake db:test:prepare
+X.each_with_index do |item, index|
+  puts "current_index: #{index}"
+end
