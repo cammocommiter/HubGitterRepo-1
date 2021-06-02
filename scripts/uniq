@@ -1,2 +1,2 @@
-Haml::Template::options[:ugly] = true
-puts "Hello World"
+mysql
+params[:uploaded_file]
