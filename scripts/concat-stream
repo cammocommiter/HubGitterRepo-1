@@ -1,3 +1,2 @@
-install
-# checking whether foo is a boolean
-!!foo == foo
+OpenStruct
+abort
