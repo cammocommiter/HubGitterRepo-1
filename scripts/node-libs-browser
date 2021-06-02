@@ -1,11 +1,3 @@
-output
-# encoding: UTF-8
-File.open("test.txt", "w:UTF-8") do |f| 
-  f.write "test \u00A9 foo" 
-end 
+[*('a'..'z'), *('0'..'9')] # doesn't work in Ruby 1.8
 
-#Encoding.filesystem = "UTF-8"
-p Encoding.find("filesystem") 
-File.open("test.txt", "r:UTF-8") do |f| 
-  puts f.read 
-end 
+require 'activesupport'
