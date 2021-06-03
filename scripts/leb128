@@ -1,2 +1,5 @@
-gem environment
-rvm install 1.9.3 --with-gcc=clang
+ALTER TABLE your_database_name.your_table CONVERT TO CHARACTER SET utf8
+
+def initialize(model_klass)
+  @model_klass = model_klass
+end
