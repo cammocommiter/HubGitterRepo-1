@@ -1,4 +1,7 @@
-sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
-sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
+is_a?
+module GemName
 
-false
+  class AuthenticationError < StandardError; end
+  class InvalidUsername < AuthenticationError; end
+
+end
