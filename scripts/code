@@ -1,17 +1,2 @@
-class AbstractThing
-  MESS = "SYSTEM ERROR: method missing"
-
-  def method_one; raise MESS; end
-  def method_two; raise MESS; end
-end
-
-class ConcreteThing < AbstractThing
-  def method_one
-     puts "hi"
-  end
-end
-
-a = ConcreteThing.new
-a.method_two # -> raises error.
-
-to_s
+all
+wordlist.sort_by { |word| word.downcase }
