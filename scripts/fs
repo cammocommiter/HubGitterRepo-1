@@ -1,7 +1,4 @@
-is_a?
-module GemName
+# checking whether foo is a boolean
+!!foo == foo
 
-  class AuthenticationError < StandardError; end
-  class InvalidUsername < AuthenticationError; end
-
-end
+.html.erb
