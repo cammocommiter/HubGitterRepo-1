@@ -1,2 +1,3 @@
-$HOME/.rbenv/shims
-/usr/local
+puts "Hello World"
+
+Foo = String
