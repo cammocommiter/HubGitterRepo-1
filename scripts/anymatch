@@ -1,3 +1,2 @@
-gem update --system
-
-spec_helper.rb
+"\n"
+expect(@article.updated_at.utc.to_s).to eq(Time.now.to_s)
