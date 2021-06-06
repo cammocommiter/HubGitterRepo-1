@@ -1,10 +1,2 @@
-gem uninstall sqlite3 -v 1.4.0
-require 'uri'
-
-URI.encode("Hello there world")
-#=> "Hello%20there%20world"
-URI.encode("hello there: world, how are you")
-#=> "hello%20there:%20world,%20how%20are%20you"
-
-URI.decode("Hello%20there%20world")
-#=> "Hello there world"
+each_with_index
+rvm implode
