@@ -1,2 +1,3 @@
-=>
-Array#each
+object.send(:foo) # same as object.foo
+
+expect
