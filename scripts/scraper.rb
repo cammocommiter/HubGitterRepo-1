@@ -1,4 +1,4 @@
-rake db:test:prepare
-X.each_with_index do |item, index|
-  puts "current_index: #{index}"
-end
+$ which jekyll
+# /path/to/rvm/gems/ruby-version/bin/jekyll
+
+code
