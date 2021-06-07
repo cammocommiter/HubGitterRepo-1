@@ -1,2 +1,2 @@
-add-on
-permalink: /:categories/:year/:month/:day/:title.html
+--fixture-replacement
+Distinct
