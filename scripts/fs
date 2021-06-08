@@ -1,19 +1,14 @@
-r or rb
-    Open file for reading.
+>> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
+=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
+>> hash.values
+=> [["a", "b", "c"], ["b", "c"]]
 
-w or wb
-    Truncate to zero length or create file for writing.
+require "open-uri"
 
-a or ab
-    Append; open or create file for writing at end-of-file.
+class User < ActiveRecord::Base
+  has_attached_file :picture
 
-r+ or rb+ or r+b
-    Open file for update (reading and writing).
-
-w+ or wb+ or w+b
-    Truncate to zero length or create file for update.
-
-a+ or ab+ or a+b
-    Append; open or create file for update, writing at end-of-file.
-
-from
+  def picture_from_url(url)
+    self.picture = open(url)
+  end
+end
