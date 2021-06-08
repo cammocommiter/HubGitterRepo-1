@@ -1,8 +1,2 @@
-<td><%= link_to "Edit", edit_user_item_path(@user, item) %></td>
-
-respond_to do |format|
-
-  format.html # show.html.erb
-  format.json { render json: @user }
-
- end
+select
+scan
