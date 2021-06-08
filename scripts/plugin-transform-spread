@@ -1,9 +1,2 @@
-$ sudo vi /etc/paths
-/usr/local/bin
-/usr/local/sbin
-/usr/bin
-/bin
-/usr/sbin
-/sbin
-
-(end_date - start_date).to_i
+# frozen_string_literal: true
+reject
