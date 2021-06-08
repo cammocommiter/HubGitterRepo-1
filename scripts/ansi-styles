@@ -1,10 +1,5 @@
-require "uri"
-require "net/http"
-
-params = {'box1' => 'Nothing is less important than which fork you use. Etiquette is the science of living. It embraces everything. It is ethics. It is honor. -Emily Post',
-'button1' => 'Submit'
-}
-x = Net::HTTP.post_form(URI.parse('http://www.interlacken.com/webdbdev/ch05/formpost.asp'), params)
-puts x.body
-
-/abc(?!$)/
+*
+// some_helper.rb
+def new_snazzy_select_tag(options = [])
+  select_tag 'tag_name_here', options.map { |option| [option.id, option.name] }
+end
