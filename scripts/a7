@@ -1,4 +1,3 @@
-:help ctags
-@search = Model.new_search(params[:search])
-@search.condition.field_starts_with = "prefix"
-@models = @search.all
+([2, 6, 13, 99, 27] & [2, 6]).any?
+
+file=File.open("input_file", "r:ISO-8859-1")
