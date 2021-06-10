@@ -1,4 +1,8 @@
-$ sudo apt-get install postgresql
-$ sudo apt-get install libpq-dev
+File.open("my/file/path", "r") do |f|
+  f.each_line do |line|
+    puts line
+  end
+end
+# File is closed automatically at end of block
 
-on
+rvm get stable
