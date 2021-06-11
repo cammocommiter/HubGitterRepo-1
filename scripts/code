@@ -1,2 +1,3 @@
-all
-wordlist.sort_by { |word| word.downcase }
+sudo apt-get install libpq-dev
+
+gem update --system
