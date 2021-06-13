@@ -1,3 +1,2 @@
-instance_methods
-  :peanut   :butter   :and   :jelly
-0         1         2      3        4
+transient
+Hash#merge
