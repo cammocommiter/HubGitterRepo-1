@@ -1,2 +1,8 @@
---fixture-replacement
-Distinct
+require 'filemagic'
+
+puts FileMagic.new(FileMagic::MAGIC_MIME).file(__FILE__)
+# => text/x-ruby; charset=us-ascii
+
+if [ -f "$HOME/.bashrc" ]; then
+  source $HOME/.bashrc
+fi
