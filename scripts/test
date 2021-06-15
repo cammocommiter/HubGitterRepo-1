@@ -1,9 +1,3 @@
-Date.civil
-# bad
-do_something if !some_condition
+(cheeses & foods).empty?
 
-# bad
-do_something if not some_condition
-
-# good
-do_something unless some_condition
+array_of_hashes.sort_by { |hsh| hsh[:zip] }
