@@ -1,14 +1,4 @@
->> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
-=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
->> hash.values
-=> [["a", "b", "c"], ["b", "c"]]
-
-require "open-uri"
-
-class User < ActiveRecord::Base
-  has_attached_file :picture
-
-  def picture_from_url(url)
-    self.picture = open(url)
-  end
-end
+nil?
+require 'rest_client'
+RestClient.post('http://localhost:3000/foo', 
+  :name_of_file_param => File.new('/path/to/file'))
