@@ -1,2 +1,2 @@
-Object
-brew rm -f readline
+pry_debug
+ActiveRecord::Enum
