@@ -1,2 +1,3 @@
-OpenStruct
-abort
+str = "file_" + i.to_s.rjust(n, "0")
+
+:foo
