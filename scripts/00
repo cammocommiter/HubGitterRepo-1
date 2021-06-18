@@ -1,5 +1,2 @@
-round(double precision, integer)
-require 'pathname'
-
-Pathname.new('/opt/local/bin/ruby').basename
-# => #<Pathname:ruby>
+initialize_with
+.bundle
