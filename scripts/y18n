@@ -1,2 +1,10 @@
-select
-scan
+$ sudo vi /etc/paths
+/usr/local/bin
+/usr/local/sbin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+
+{a: 1, b: 2, c: 3}.key(1)
+=> :a
