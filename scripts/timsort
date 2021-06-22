@@ -1,10 +1,9 @@
-has_many :memberships, dependent: :delete_all
+>> Process.kill 0, 370
+=> 1
+>> Process.kill 0, 2
+Errno::ESRCH: No such process
+    from (irb):5:in `kill'
+    from (irb):5
+>> 
 
-class A
-end
-
-class B < A
-end
-
-B.superclass # => A
-B.superclass.name # => "A"
+gem install mygem
