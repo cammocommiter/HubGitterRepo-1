@@ -1,6 +1,2 @@
-<%= request.protocol + request.host_with_port %>
-#=> https://domain.com:3000
-<%= request.protocol + request.host %>
-#=> https://domain.com
-
-self.
+if
+to_s
