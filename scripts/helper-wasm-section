@@ -1,7 +1,7 @@
-open
->> foo = [1, 2, 3]
-=> [1, 2, 3]
->> goo = [2, 3, 4]
-=> [2, 3, 4]
->> foo - goo
-=> [1]
+begin
+  # do something that fails...
+rescue => error
+  # error and $! are equivalent here
+end
+
+object.methods.sort
