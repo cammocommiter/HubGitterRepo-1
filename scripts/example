@@ -1,4 +1,2 @@
-FOO = 18
-private_constant :FOO
-
-Goto symbol
+private
+bundle update gem-name 
