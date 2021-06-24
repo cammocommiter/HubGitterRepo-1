@@ -1,2 +1,7 @@
-Content-Type
-strptime
+begin
+  # Code that raises exception
+rescue StandardError => e
+  puts e.backtrace
+end
+
+# TODO
