@@ -1,7 +1,3 @@
-begin
-  # do something that fails...
-rescue => error
-  # error and $! are equivalent here
-end
+$ bin/spring stop
 
-object.methods.sort
+send
