@@ -1,2 +1,4 @@
-sudo chown -R $USER /usr/local
-~/.gemrc
+included
+Given /^I login successfully$/
+    step "I login with valid credentials" 
+end 
