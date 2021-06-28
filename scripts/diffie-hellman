@@ -1,8 +1,5 @@
-File.open("my/file/path", "r") do |f|
-  f.each_line do |line|
-    puts line
-  end
-end
-# File is closed automatically at end of block
+> 208 % 11
+=> 10
 
-rvm get stable
+gem unpack rake
+ls rake-0.4.3/
