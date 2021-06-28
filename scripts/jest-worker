@@ -1,8 +1,3 @@
-require 'filemagic'
+task :t, [args] => [deps] 
 
-puts FileMagic.new(FileMagic::MAGIC_MIME).file(__FILE__)
-# => text/x-ruby; charset=us-ascii
-
-if [ -f "$HOME/.bashrc" ]; then
-  source $HOME/.bashrc
-fi
+"\r\n"
