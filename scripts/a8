@@ -1,19 +1,7 @@
-# app/controllers/foos_controller.rb:
-class FoosController < ApplicationController
-
-  def show
-    @foo = Foo.find(...)
-  end
-
-end
-
-#app/views/foos/show.html.erb:
-...
-<%= @foo.bar %>
-...
-
-class Hash
-  def compact
-    delete_if { |k, v| v.nil? }
+warn
+class ApplicationController < ActionController::Base
+  def render *args
+    add_breadcrumbs
+    super
   end
 end
