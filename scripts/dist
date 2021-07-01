@@ -1,2 +1,20 @@
-rvm [reinstall|install]
-sudo apt-get install ruby1.9
+case var
+when 1
+  dosomething
+when 2..3
+  doSomethingElse
+end
+
+case
+when var == 1
+   doSomething
+when var < 12
+   doSomethingElse
+end
+
+# Will raise exception if any value not found
+User.find( [1,3,5] )
+
+# Will not raise an exception
+User.find_all_by_id( [1,3,5] ) # Rails 3
+User.where(id: [1,3,5])        # Rails 4
