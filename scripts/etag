@@ -1,7 +1,2 @@
-$ gem sources
-*** CURRENT SOURCES ***
-
-https://rubygems.org/
-
-''.presence
-# => nil
+chars
+A::B::C
