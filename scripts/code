@@ -1,5 +1,2 @@
-RegExp#match?
-if __FILE__ == $0
-    foo()
-    bar()
-end
+readme.txt
+Time.parse(time)
