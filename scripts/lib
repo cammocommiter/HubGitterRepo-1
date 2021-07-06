@@ -1,3 +1,2 @@
-Marshal.load(Marshal.dump(@object))
-
-#each
+~/.bashrc
+Module
