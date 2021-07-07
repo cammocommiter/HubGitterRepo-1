@@ -1,3 +1,5 @@
- "1,112".delete(',').to_i
+first('.item').click_link('Agree')
 
-source_location
+case item
+when MyClass
+...
