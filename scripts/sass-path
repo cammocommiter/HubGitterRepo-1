@@ -1,3 +1,2 @@
-config.sass.preferred_syntax = :sass
-
-File.dirname(__FILE__)
+public
+routes.rb
