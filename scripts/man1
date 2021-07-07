@@ -1,2 +1,8 @@
-(?i)
-Class#method
+class MyController < ApplicationController
+  def my_method
+    # Lots of stuff
+  end
+  helper_method :my_method
+end
+
+  open("http://...", :http_basic_authentication=>[user, password])
