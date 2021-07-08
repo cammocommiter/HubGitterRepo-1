@@ -1,3 +1,11 @@
-to_s
-# %q(a string) is equivalent to a single-quoted string
-puts "Cote d'Ivoir".gsub("'", %q(\\\')) #=> Cote d\'Ivoir
+expect(target).to be < 6
+
+require 'uri'
+
+url = 'http://www.example.com/foo/bar/filename.jpg?2384973948743'
+
+uri = URI.parse(url)
+
+puts File.basename(uri.path)
+
+#=> filename.jpg
