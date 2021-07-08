@@ -1,2 +1,3 @@
-method(int a, int b) vs method(String a, String b)
-US Standard
+request.session_options[:id]
+
+USER_KEY
