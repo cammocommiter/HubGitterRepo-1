@@ -1,2 +1,5 @@
-Time.now.utc
-Net::HTTP
+!!nil   #=> false
+!!"abc" #=> true
+!!false #=> false
+
+gem list rhc --remote --all
