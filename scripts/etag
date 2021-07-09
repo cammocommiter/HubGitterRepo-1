@@ -1,2 +1,3 @@
-chars
-A::B::C
+sudo apt-get install mysql-client libmysqlclient-dev
+
+Time.parse(time)
