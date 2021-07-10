@@ -1,2 +1,2 @@
-public
-routes.rb
+helper_method
+@bunch.group_by{|e| [e.commentable_id, e.commentable_type]}
