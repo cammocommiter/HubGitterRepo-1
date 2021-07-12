@@ -1,12 +1,11 @@
-#{...}
-class Foo
-  def self.some_method
-    sleep 5
-  end
+begin
+  require 'someFile.rb'
+rescue LoadError
+  puts "someFile.rb was not found, have you"
+  puts "forgotten to specify the -I flag?"
+  exit
 end
 
-it "should call sleep" do
-  Foo.stub!(:sleep)
-  Foo.should_receive(:sleep).with(5)
-  Foo.some_method
+Given /^PENDING/ do
+  pending
 end
