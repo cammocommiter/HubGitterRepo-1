@@ -1,2 +1,2 @@
-helper_method
-@bunch.group_by{|e| [e.commentable_id, e.commentable_type]}
+brew upgrade ruby
+gem 'selenium-webdriver', '2.25.0'
