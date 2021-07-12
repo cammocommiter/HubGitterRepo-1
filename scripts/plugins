@@ -1,1 +1,3 @@
-def this; end
+bundle update gem-name 
+
+attr_accessor
