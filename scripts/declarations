@@ -1,4 +1,2 @@
-a in [1,2]
-gem uninstall nokogiri
-xcode-select --install
-gem install nokogiri
+rm ~/.zcompdump*
+$ bin/spring stop
