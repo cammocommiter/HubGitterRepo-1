@@ -1,2 +1,3 @@
-size
-bundle exec
+ruby -e 'puts $:'
+
+~/.rvm/gemsets/global.gems
