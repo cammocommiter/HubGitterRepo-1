@@ -1,2 +1,4 @@
-all
-NoMethodError
+def some_method
+end
+
+%W
