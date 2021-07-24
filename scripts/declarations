@@ -1,2 +1,7 @@
-rm ~/.zcompdump*
-$ bin/spring stop
+%div{:itemscope => true}
+
+def self.secret
+  'xxx'
+end
+
+private_class_method :secret
