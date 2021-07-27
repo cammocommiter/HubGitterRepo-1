@@ -1,11 +1,2 @@
-expect(target).to be < 6
-
-require 'uri'
-
-url = 'http://www.example.com/foo/bar/filename.jpg?2384973948743'
-
-uri = URI.parse(url)
-
-puts File.basename(uri.path)
-
-#=> filename.jpg
+ensure
+request.original_url
