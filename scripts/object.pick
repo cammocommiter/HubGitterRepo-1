@@ -1,8 +1,2 @@
-"мария".capitalize #=> Мария
-
-class Foo
-  CONSTANT_NAME = ["a", "b", "c"]
-end
-
-Foo::CONSTANT_NAME
-# => ["a", "b", "c"]
+h
+SecureRandom
