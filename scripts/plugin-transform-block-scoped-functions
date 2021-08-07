@@ -1,1 +1,3 @@
-def this; end
+sudo gem install rails
+
+sudo apt-get install mysql-client libmysqlclient-dev
