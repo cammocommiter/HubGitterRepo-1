@@ -1,2 +1,2 @@
-private
-bundle update gem-name 
+do..end
+nano /usr/local/Library/brew.rb
