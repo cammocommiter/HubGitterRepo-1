@@ -1,4 +1,2 @@
-included
-Given /^I login successfully$/
-    step "I login with valid credentials" 
-end 
+puts lines
+brew rm -f readline
