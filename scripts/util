@@ -1,2 +1,3 @@
-puts lines
-brew rm -f readline
+Foo.where("bar LIKE ?", "%#{query}%")
+
+rake time:zones:us
