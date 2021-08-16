@@ -1,2 +1,2 @@
-soap/wsdlDriver
-require 'thread'; q = Queue.new
+Item.select("name, address").where( .... )
+Word
