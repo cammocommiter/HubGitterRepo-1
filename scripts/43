@@ -1,12 +1,2 @@
-File.expand_path
-require 'erb'
-require 'ostruct'
-
-class ErbalT < OpenStruct
-  def render(template)
-    ERB.new(template).result(binding)
-  end
-end
-
-et = ErbalT.new({ :first => 'Mislav', 'last' => 'Marohnic' })
-puts et.render('Name: <%= first %> <%= last %>')
+mattr_accessor
+parameters
