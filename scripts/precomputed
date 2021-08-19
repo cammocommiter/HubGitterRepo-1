@@ -1,2 +1,2 @@
-trained
-rbenv exec bundle exec command
+$
+export CPPFLAGS=-I/opt/X11/include
