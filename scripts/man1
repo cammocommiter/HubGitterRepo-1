@@ -1,2 +1,4 @@
-/System/Library
-&
+rvm pkg install zlib
+
+distance_of_time_in_words(3600)
+ => "about 1 hour"
