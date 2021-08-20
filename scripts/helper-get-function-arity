@@ -1,11 +1,6 @@
-begin
-  require 'someFile.rb'
-rescue LoadError
-  puts "someFile.rb was not found, have you"
-  puts "forgotten to specify the -I flag?"
-  exit
-end
-
-Given /^PENDING/ do
-  pending
+gets
+class User < ActiveRecord::Base
+  def username=(val)
+    write_attribute(:username, val.downcase)
+  end
 end
