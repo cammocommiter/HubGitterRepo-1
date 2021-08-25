@@ -1,1 +1,6 @@
-def this; end
+{a: 1, b: 2, c: 3}.key(1)
+=> :a
+
+class Car {
+    class Wheel { }
+}
