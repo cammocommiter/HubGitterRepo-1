@@ -1,4 +1,3 @@
-each_slice
-delegate :occupation, :location, :picture_url, 
-         :homepage_url, :headline, :full_name, 
-         :to => :profile, :prefix => true, :allow_nil => true
+require 'csv'
+
+intern
