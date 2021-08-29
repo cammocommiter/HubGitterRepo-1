@@ -1,5 +1,4 @@
-a.action if object.method?
+Dir.glob("**/*/") # for directories
+Dir.glob("**/*") # for all files
 
-# rubocop:disable LineLength
-puts "This line is lonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnng"
-# rubocop:enable LineLength
+a.zip(s).flatten.compact
