@@ -1,3 +1,5 @@
-rake assets:clean
+rails destroy controller lalala
+rails destroy model yadayada
+rails destroy scaffold hohoho
 
-array.map!(&:to_s)
+rand(range)
