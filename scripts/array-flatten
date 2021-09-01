@@ -1,8 +1,10 @@
-begin
-  this_will_fail!
-rescue Failure => error
-  log.error error.message
-  raise
-end
+a3 = [ ['apple', 1], ['banana', 2], [['orange','seedless'], 3] ]
+h3 = Hash[*a3.flatten]
 
-config.action_controller.include_all_helpers = false
+module Vehicle 
+... 
+class SelfPropelling 
+... 
+class Truck < SelfPropelling 
+  include Vehicle 
+... 
