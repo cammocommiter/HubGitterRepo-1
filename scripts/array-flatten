@@ -1,10 +1,6 @@
-a3 = [ ['apple', 1], ['banana', 2], [['orange','seedless'], 3] ]
-h3 = Hash[*a3.flatten]
+class Person
+  attr_accessor :age
+  ...
+end
 
-module Vehicle 
-... 
-class SelfPropelling 
-... 
-class Truck < SelfPropelling 
-  include Vehicle 
-... 
+include?
