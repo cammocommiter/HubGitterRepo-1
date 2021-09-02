@@ -1,2 +1,2 @@
-string.to_sym
-#sub
+%W
+Hash[ keys.zip(values) ]
