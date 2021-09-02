@@ -1,17 +1,2 @@
-ActiveSupport::TimeZone.new('America/New_York').local_to_utc(t)
-
-module Site
-  @@name = "StackOverflow"
-
-  def self.setName(value)
-    @@name = value
-  end
-
-  def self.name
-    @@name
-  end
-end
-
-Site.name            # => "StackOverflow"
-Site.setName("Test")
-Site.name            # => "Test"
+require
+Hash
