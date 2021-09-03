@@ -1,1 +1,16 @@
-def this; end
+class Parent
+  def self.descendants
+    ObjectSpace.each_object(Class).select { |klass| klass < self }
+  end
+end
+
+class Child < Parent
+end
+
+class GrandChild < Child
+end
+
+puts Parent.descendants
+puts Child.descendants
+
+URI.escape
