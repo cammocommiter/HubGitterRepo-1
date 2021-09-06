@@ -1,2 +1,3 @@
-require
-Hash
+pip install mypackage
+
+String#scan
