@@ -1,2 +1,15 @@
-gem install ffi -v '1.9.18' -- --with-cflags="-Wno-error=implicit-function-declaration"
-p()
+class String
+  def initial
+    self[0,1]
+  end
+end
+
+hash1 = {'a' => 1, 'b' => 2}
+hash2 = {'a' => 1, 'b' => 2}
+hash3 = {'a' => 1, 'b' => 2, 'c' => 3}
+
+hash1 == hash2 # => true
+hash1 == hash3 # => false
+
+hash1.to_a == hash2.to_a # => true
+hash1.to_a == hash3.to_a # => false
