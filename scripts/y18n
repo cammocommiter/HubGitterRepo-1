@@ -1,5 +1,15 @@
-rails destroy controller lalala
-rails destroy model yadayada
-rails destroy scaffold hohoho
+class Person
+    attr_accessor :name, :age
 
-rand(range)
+    def initialize(name = '', age = 0)
+        self.name = name
+        self.age = age
+    end
+end
+
+
+Person.new('Ivan', 20)
+Person.new('Ivan')
+
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
