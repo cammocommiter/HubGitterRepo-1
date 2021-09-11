@@ -1,7 +1,5 @@
-%div{:itemscope => true}
+irb:001> f = File.new('statements.xml', 'w')
+irb:002> f << Account.find(1).statements.to_xml
+irb:003> f.close
 
-def self.secret
-  'xxx'
-end
-
-private_class_method :secret
+Object#instance_variable_get
