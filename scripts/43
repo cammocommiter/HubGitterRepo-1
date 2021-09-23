@@ -1,2 +1,2 @@
-mattr_accessor
-parameters
+$1
+ "1,112".delete(',').to_i
