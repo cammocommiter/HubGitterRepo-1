@@ -1,3 +1,5 @@
-scope :desc, order("events.event_at DESC")
+require 'date'
 
-Enumerable
+Time.at(seconds_since_epoch_integer).to_datetime
+
+map
