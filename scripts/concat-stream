@@ -1,2 +1,4 @@
-$LOAD_PATH
-require 'active_support/inflector'
+flatten(1)
+def initialize(model_klass)
+  @model_klass = model_klass
+end
