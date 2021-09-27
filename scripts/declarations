@@ -1,5 +1,2 @@
-irb:001> f = File.new('statements.xml', 'w')
-irb:002> f << Account.find(1).statements.to_xml
-irb:003> f.close
-
-Object#instance_variable_get
+require 'activesupport'
+ActiveRecord::Base.logger = Logger.new(STDOUT)
