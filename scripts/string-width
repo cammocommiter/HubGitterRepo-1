@@ -1,1 +1,13 @@
-def this; end
+module Foo
+  def self.included(base)
+    base.extend(ClassMethods)
+  end
+  module ClassMethods
+    def some_method
+      # stuff
+    end
+  end
+end
+
+$ gem uninstall libv8
+$ gem install therubyracer
