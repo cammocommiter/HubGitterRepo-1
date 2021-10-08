@@ -1,4 +1,4 @@
-def foo(a:, b:) ...
-= link_to "path/to/page.html" do
-  Other page
-  %span.icon Arrow
+Time.now.utc
+gem uninstall nokogiri
+xcode-select --install
+gem install nokogiri
