@@ -1,4 +1,4 @@
-def some_method
-end
+hash = {"apple" => "fruit", "carrot" => "vegetable"}
+array = hash.keys   #=> ["apple", "carrot"]
 
-%W
+sudo apt-get install vim-nox;
