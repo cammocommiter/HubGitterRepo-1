@@ -1,2 +1,2 @@
-$1
- "1,112".delete(',').to_i
+%w(foo bar)
+sudo apt-get install libmysql-ruby libmysqlclient-dev
