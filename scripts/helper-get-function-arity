@@ -1,2 +1,2 @@
-require 'thread'; q = Queue.new
-has_many :memberships, dependent: :delete_all
+x ||= value
+each_slice
