@@ -1,2 +1,6 @@
-do..end
-nano /usr/local/Library/brew.rb
+default: &default_title This Post Has No Title
+title: *default_title
+
+AllCops:
+  Exclude:
+    - 'path/to/excluded/file.rb'
