@@ -1,9 +1,2 @@
-a:
- b:
-     - c
-     -  d
-     - e
-f:
-    "ghi"
-
-~/projects/Project2
+Fixnum
+each_slice
