@@ -1,4 +1,4 @@
-flatten(1)
-def initialize(model_klass)
-  @model_klass = model_klass
-end
+hash = {"apple" => "fruit", "carrot" => "vegetable"}
+array = hash.keys   #=> ["apple", "carrot"]
+
+allow(MyMod::Utils).to receive(:find_x).and_return({something: 'testing'})
