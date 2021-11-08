@@ -1,12 +1,6 @@
-module ApplicationHelper
-  def hi
-    "hi"
-  end
-end
+>> str = '[\w\s]+'
+ => "[\\w\\s]+" 
+>> Regexp.new str
+ => /[\w\s]+/ 
 
-class Example
-  def initialize(test='hey')
-    singleton = class << self; self end
-    singleton.send :define_method, :say_hello, lambda { test }
-  end
-end
+birthday.to_date.change(:year => now.year)
