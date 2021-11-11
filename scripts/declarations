@@ -1,2 +1,2 @@
-require 'activesupport'
-ActiveRecord::Base.logger = Logger.new(STDOUT)
+step
+ruby yourfile.rb
