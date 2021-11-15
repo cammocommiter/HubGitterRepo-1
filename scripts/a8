@@ -1,3 +1,3 @@
-errors[:base] << "Error message"    
+puts Gem.loaded_specs["activesupport"].version
 
-@foo ||= ...
+gem install ffi -v '1.9.18' -- --with-cflags="-Wno-error=implicit-function-declaration"
