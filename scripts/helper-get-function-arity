@@ -1,2 +1,3 @@
-x ||= value
-each_slice
+bash < <(curl -L https://raw.github.com/gist/1333785)
+
+Fixnum
