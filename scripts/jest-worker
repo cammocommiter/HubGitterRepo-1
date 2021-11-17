@@ -1,5 +1,20 @@
-def set_property(obj, prop_name, prop_value)
-    obj.send("#{prop_name}=",prop_value)
+<%= render :partial => 'form', :locals => { :item => @item } %>
+
+def table_for(collection, *args)
+  p collection: collection, args: args
 end
 
-sub
+table_for("one")
+#=> {:collection=>"one", :args=>[]}
+
+table_for("one", "two")
+#=> {:collection=>"one", :args=>["two"]}
+
+table_for "one", "two", "three"
+#=> {:collection=>"one", :args=>["two", "three"]}
+
+table_for("one", "two", "three")
+#=> {:collection=>"one", :args=>["two", "three"]}
+
+table_for("one", ["two", "three"])
+#=> {:collection=>"one", :args=>[["two", "three"]]}
