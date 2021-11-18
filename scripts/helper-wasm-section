@@ -1,3 +1,2 @@
-$ bin/spring stop
-
-send
+nil
+deep_symbolize_keys
