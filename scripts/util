@@ -1,3 +1,2 @@
-sleep(1.0/24.0)
-
-"мария".capitalize #=> Мария
+require_relative
+.zshrc
