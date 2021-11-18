@@ -1,4 +1,2 @@
-Dir.glob("**/*/") # for directories
-Dir.glob("**/*") # for all files
-
-a.zip(s).flatten.compact
+IO
+DateTime.current.midnight
