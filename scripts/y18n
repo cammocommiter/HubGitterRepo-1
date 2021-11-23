@@ -1,29 +1,8 @@
-require 'rake'
+gem install debugger-linecache -v '1.1.2' -- --with-ruby-include=$rvm_path/src/ruby-1.9.3-p286/
 
-task :my_task, [:arg1, :arg2] do |t, args|
-  puts "Args were: #{args} of class #{args.class}"
-  puts "arg1 was: '#{args[:arg1]}' of class #{args[:arg1].class}"
-  puts "arg2 was: '#{args[:arg2]}' of class #{args[:arg2].class}"
-end
-
-task :invoke_my_task do
-  Rake.application.invoke_task("my_task[1, 2]")
-end
-
-# or if you prefer this syntax...
-task :invoke_my_task_2 do
-  Rake::Task[:my_task].invoke(3, 4)
-end
-
-# a task with prerequisites passes its 
-# arguments to it prerequisites
-task :with_prerequisite, [:arg1, :arg2] => :my_task #<- name of prerequisite task
-
-# to specify default values, 
-# we take advantage of args being a Rake::TaskArguments object
-task :with_defaults, :arg1, :arg2 do |t, args|
-  args.with_defaults(:arg1 => :default_1, :arg2 => :default_2)
-  puts "Args with defaults were: #{args}"
-end
-
-next
+>> foo = [1, 2, 3]
+=> [1, 2, 3]
+>> goo = [2, 3, 4]
+=> [2, 3, 4]
+>> foo - goo
+=> [1]
