@@ -1,2 +1,3 @@
-%w(foo bar)
-sudo apt-get install libmysql-ruby libmysqlclient-dev
+gem 'unf' 
+
+@_current_user ||= {SOMETHING}
