@@ -1,11 +1,3 @@
-x = :sym
-y = :sym
-(x.__id__ == y.__id__ ) && ( :sym.__id__ == x.__id__) # => true
+http://invalid##host.com
 
-x = "string"
-y = "string"
-(x.__id__ == y.__id__ ) || ( "string".__id__ == x.__id__) # => false
-
-gem uninstall libv8
-gem install therubyracer -v '0.11.3'
-gem install libv8 -v '3.11.8.13' -- --with-system-v8
+tr
