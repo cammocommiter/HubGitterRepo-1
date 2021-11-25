@@ -1,2 +1,5 @@
-\A
-Methods
+[1,2,3,4,5] - [1,3,4]  #=> [2,5]
+
+irb:001> f = File.new('statements.xml', 'w')
+irb:002> f << Account.find(1).statements.to_xml
+irb:003> f.close
