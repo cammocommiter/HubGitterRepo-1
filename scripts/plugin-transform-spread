@@ -1,4 +1,3 @@
-db:create
-rails destroy controller lalala
-rails destroy model yadayada
-rails destroy scaffold hohoho
+[x*x for x in values if x > 15]
+
+ActionView::Base.full_sanitizer.sanitize(html_string)
