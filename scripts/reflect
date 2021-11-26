@@ -1,2 +1,2 @@
-bundle install --deployment
-::foreach, ::open, ::read, and ::readlines
+return
+update_column
