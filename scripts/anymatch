@@ -1,2 +1,4 @@
-"\n"
-expect(@article.updated_at.utc.to_s).to eq(Time.now.to_s)
+protect_from_forgery with: :exception
+
+require 'pp'
+pp my_hash
