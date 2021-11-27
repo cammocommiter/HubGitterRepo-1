@@ -1,4 +1,4 @@
-rbenv
-gem uninstall nokogiri
-xcode-select --install
-gem install nokogiri
+Account.where(id: [1,2])
+  task :my_task do
+    run "my_command"
+  end
