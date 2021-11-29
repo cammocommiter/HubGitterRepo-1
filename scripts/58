@@ -1,2 +1,2 @@
-%W
-Hash[ keys.zip(values) ]
+ActionController::API
+git://github.com/Dakuan/client_side_validations.git
