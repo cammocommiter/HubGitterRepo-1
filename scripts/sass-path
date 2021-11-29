@@ -1,13 +1,2 @@
-$gvar = "I'm a global!"
-class C
-    def examine_global
-        puts $gvar
-    end
-end
-
-c = C.new
-c.examine_global # I'm a global!
-
-3.times do
-   # do work here
-end 
+GEM_HOME
+big_result(input); 0
