@@ -1,3 +1,2 @@
-rvm get stable
-FOO = 18
-private_constant :FOO
+intern
+self.attribute
