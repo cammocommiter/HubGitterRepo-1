@@ -1,3 +1,5 @@
-DateTime.current.midnight
-10.minutes.ago
-2.days.since
+require 'date'
+now = Date.today
+ninety_days_ago = (now - 90)
+
+irb -r ./your_file.rb
