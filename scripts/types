@@ -1,3 +1,2 @@
-rand(10 ** 10)
-
-a.reduce Hash.new, :merge
+false
+ % ruby_program | another_program
