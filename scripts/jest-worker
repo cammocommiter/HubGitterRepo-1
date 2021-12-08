@@ -1,20 +1,20 @@
-<%= render :partial => 'form', :locals => { :item => @item } %>
+ % ruby_program | another_program
 
-def table_for(collection, *args)
-  p collection: collection, args: args
-end
+#!/usr/bin/ruby1.8
 
-table_for("one")
-#=> {:collection=>"one", :args=>[]}
-
-table_for("one", "two")
-#=> {:collection=>"one", :args=>["two"]}
-
-table_for "one", "two", "three"
-#=> {:collection=>"one", :args=>["two", "three"]}
-
-table_for("one", "two", "three")
-#=> {:collection=>"one", :args=>["two", "three"]}
-
-table_for("one", ["two", "three"])
-#=> {:collection=>"one", :args=>[["two", "three"]]}
+require 'pp'
+mooth = [
+  "booth", "month", "mooch", "morth",
+  "mouth", "mowth", "sooth", "tooth"
+]
+PP.pp(mooth, $>, 40)
+# => ["booth",
+# =>  "month",
+# =>  "mooch",
+# =>  "morth",
+# =>  "mouth",
+# =>  "mowth",
+# =>  "sooth",
+# =>  "tooth"]
+PP.pp(mooth, $>, 79)
+# => ["booth", "month", "mooch", "morth", "mouth", "mowth", "sooth", "tooth"]
