@@ -1,2 +1,4 @@
-stdout
-p()
+"String".start_with? "S" # true
+"String".end_with? "4" # false
+
+data = File.read("/path/to/file")
