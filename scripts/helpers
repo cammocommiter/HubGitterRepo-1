@@ -1,8 +1,3 @@
-@ECHO OFF
-IF NOT "%~f0" == "~f0" GOTO :WinNT
-@"C:\Users\emachnic\GitRepos\railsinstaller-windows\stage\Ruby2.2.0\bin\ruby.exe" "C:/Users/emachnic/GitRepos/railsinstaller-windows/stage/Ruby2.2.0/bin/tilt" %1 %2 %3 %4 %5 %6 %7 %8 %9
-GOTO :EOF
-:WinNT
-@"C:\Users\emachnic\GitRepos\railsinstaller-windows\stage\Ruby2.2.0\bin\ruby.exe" "%~dpn0" %*
+gem install nokogiri -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libxml2
 
-headers: true
+random_boolean = [true, false].sample
