@@ -1,19 +1,2 @@
-irb(main):068:0> str = "Angry Birds 2.4.1"
-=> "Angry Birds 2.4.1"
-irb(main):069:0> str.rpartition(' ')
-=> ["Angry Birds", " ", "2.4.1"]
-
-class Foo
-  private
-  def bar(value)
-    puts "value = #{value}"
-  end
-end
-
-f = Foo.new
-begin
-  f.bar("This won't work")
-rescue Exception=>e
-  puts "That didn't work: #{e}"
-end
-f.instance_eval{ bar("But this does") }
+alias_method
+<% %>
