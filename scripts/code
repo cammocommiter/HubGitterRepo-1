@@ -1,2 +1,4 @@
-readme.txt
-Time.parse(time)
+rvm get stable
+
+file = File.open("path-to-file.tar.gz", "rb")
+contents = file.read
