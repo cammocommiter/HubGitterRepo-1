@@ -1,6 +1,11 @@
-default: &default_title This Post Has No Title
-title: *default_title
-
-AllCops:
-  Exclude:
-    - 'path/to/excluded/file.rb'
+let
+car = {:make => "bmw", :year => "2003"}
+# => {:make=>"bmw", :year=>"2003"}
+car.to_json
+# NoMethodError: undefined method `to_json' for {:make=>"bmw", :year=>"2003"}:Hash
+#   from (irb):11
+#   from /usr/bin/irb:12:in `<main>'
+require 'json'
+# => true
+car.to_json
+# => "{"make":"bmw","year":"2003"}"
