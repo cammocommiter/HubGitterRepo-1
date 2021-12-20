@@ -1,1 +1,6 @@
-def this; end
+export GEM_HOME=~/.gems
+export PATH=$GEM_HOME/bin:$PATH
+
+gem install cocoapods -V
+
+puts 'abcdefg'.start_with?('abc')  #=> true
