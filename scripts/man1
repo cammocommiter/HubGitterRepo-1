@@ -1,4 +1,2 @@
-"String".start_with? "S" # true
-"String".end_with? "4" # false
-
-data = File.read("/path/to/file")
+warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+Enumerable#reject
