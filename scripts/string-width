@@ -1,13 +1,4 @@
-module Foo
-  def self.included(base)
-    base.extend(ClassMethods)
-  end
-  module ClassMethods
-    def some_method
-      # stuff
-    end
-  end
-end
+a = t               # => [1, 2, 3, 4]
+a.first a.size - 1  # => [1, 2, 3]
 
-$ gem uninstall libv8
-$ gem install therubyracer
+ActiveModel::Type::Boolean.new.cast(value)
