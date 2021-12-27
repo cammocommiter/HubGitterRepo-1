@@ -1,20 +1,2 @@
- % ruby_program | another_program
-
-#!/usr/bin/ruby1.8
-
-require 'pp'
-mooth = [
-  "booth", "month", "mooch", "morth",
-  "mouth", "mowth", "sooth", "tooth"
-]
-PP.pp(mooth, $>, 40)
-# => ["booth",
-# =>  "month",
-# =>  "mooch",
-# =>  "morth",
-# =>  "mouth",
-# =>  "mowth",
-# =>  "sooth",
-# =>  "tooth"]
-PP.pp(mooth, $>, 79)
-# => ["booth", "month", "mooch", "morth", "mouth", "mowth", "sooth", "tooth"]
+has_key?
+% rake test TEST=test/test_foobar.rb TESTOPTS="--name=test_foobar1 -v"
