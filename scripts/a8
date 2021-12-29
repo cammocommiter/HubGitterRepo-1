@@ -1,5 +1,6 @@
-%i[address city state postal country]
+class Person
+  attr_accessor :age
+  ...
+end
 
- def self.up
-   add_column :users, :multi_wrong, :text
- end
+rvm implode
