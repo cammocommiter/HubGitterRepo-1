@@ -1,4 +1,10 @@
-hash = {"apple" => "fruit", "carrot" => "vegetable"}
-array = hash.keys   #=> ["apple", "carrot"]
+it "should call 'bar' with appropriate arguments" do
+  expect(subject).to receive(:bar).with("an argument I want")
+  subject.foo
+end
 
-allow(MyMod::Utils).to receive(:find_x).and_return({something: 'testing'})
+opts = Trollop::options do
+  opt :quiet, "Use minimal output", :short => 'q'
+  opt :interactive, "Be interactive"
+  opt :filename, "File to process", :type => String
+end
