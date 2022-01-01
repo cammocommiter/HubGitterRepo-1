@@ -1,2 +1,4 @@
-item
--
+output = `ls`
+p output
+
+require_relative
