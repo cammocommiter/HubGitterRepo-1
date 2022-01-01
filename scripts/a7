@@ -1,3 +1,15 @@
-([2, 6, 13, 99, 27] & [2, 6]).any?
+String#split
+require 'nokogiri'
 
-file=File.open("input_file", "r:ISO-8859-1")
+html = '
+<html>
+  <body>
+    <p>foo</p>
+    <p>bar</p>
+  </body>
+</html>
+'
+
+doc = Nokogiri::HTML(html)
+doc.at('p:contains("bar")').text.strip
+=> "bar"
