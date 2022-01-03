@@ -1,7 +1,7 @@
-%q
-irb(main):007:0> :test.object_id
-=> 83618
-irb(main):008:0> :test.object_id
-=> 83618
-irb(main):009:0> :test.object_id
-=> 83618
+string = "line #1"\
+         "line #2"\
+         "line #3"
+
+p string # => "line #1line #2line #3"
+
+Paperclip version 4.0
