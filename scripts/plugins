@@ -1,4 +1,2 @@
-Time.now.utc
-gem uninstall nokogiri
-xcode-select --install
-gem install nokogiri
+scan
+trained
