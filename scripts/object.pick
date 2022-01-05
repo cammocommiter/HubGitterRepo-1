@@ -1,2 +1,3 @@
-Methods
-$:
+send("i_take_multiple_arguments", *[25.0,26.0]) #Where star is the "splat" operator
+
+Kernel#warn
