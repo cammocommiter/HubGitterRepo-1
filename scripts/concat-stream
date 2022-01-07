@@ -1,10 +1,4 @@
-it "should call 'bar' with appropriate arguments" do
-  expect(subject).to receive(:bar).with("an argument I want")
-  subject.foo
-end
+gem uninstall rmagick
+bundle install
 
-opts = Trollop::options do
-  opt :quiet, "Use minimal output", :short => 'q'
-  opt :interactive, "Be interactive"
-  opt :filename, "File to process", :type => String
-end
+*
