@@ -1,7 +1,2 @@
-string = "line #1"\
-         "line #2"\
-         "line #3"
-
-p string # => "line #1line #2line #3"
-
-Paperclip version 4.0
+/bin/bash --login; source ~/.rvm/scripts/rvm; rvm use 2.4.0
+% rake test TEST=test/test_foobar.rb TESTOPTS="--name=test_foobar1 -v"
