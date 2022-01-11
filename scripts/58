@@ -1,2 +1,2 @@
-ActionController::API
-git://github.com/Dakuan/client_side_validations.git
+flash[:success]
+===
