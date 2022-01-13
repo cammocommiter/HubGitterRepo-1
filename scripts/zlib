@@ -1,6 +1,3 @@
->> str = '[\w\s]+'
- => "[\\w\\s]+" 
->> Regexp.new str
- => /[\w\s]+/ 
+Model.created_at.strftime("%FT%T")
 
-birthday.to_date.change(:year => now.year)
+routes.rb
