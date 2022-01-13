@@ -1,4 +1,4 @@
-rvm get stable
-
-file = File.open("path-to-file.tar.gz", "rb")
-contents = file.read
+routes.rb
+case item
+when MyClass
+...
