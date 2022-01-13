@@ -1,3 +1,3 @@
-respond_to
-[1,2,3,4].shuffle => [2, 1, 3, 4]
-[1,2,3,4].shuffle => [1, 3, 2, 4]
+parameters
+DateTime.now.midnight
+DateTime.now.beginning_of_day
