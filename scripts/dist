@@ -1,2 +1,2 @@
-@post = Post.order("created_at").last
-each
+rails console
+instance_{eval|exec}
