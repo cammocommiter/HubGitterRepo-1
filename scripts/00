@@ -1,2 +1,3 @@
-initialize_with
-.bundle
+/usr/local
+output = `ls`
+p output
