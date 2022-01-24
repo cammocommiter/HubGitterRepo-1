@@ -1,3 +1,2 @@
-rake db:migrate:up VERSION=20090408054532
-
-Dir::foreach
+send_data
+{symbol: value}
