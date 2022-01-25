@@ -1,2 +1,3 @@
-L
-instance_{eval|exec}
+xcode-select --install
+
+'-- \n'
