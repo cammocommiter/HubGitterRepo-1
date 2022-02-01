@@ -1,8 +1,4 @@
-require 'fileutils'
+> 208 % 11
+=> 10
 
-dirname = File.dirname(some_path)
-unless File.directory?(dirname)
-  FileUtils.mkdir_p(dirname)
-end
-
-%r{}
+rvmsudo
