@@ -1,5 +1,3 @@
-def picture_from_url(url)
-  self.picture = URI.parse(url)
-end
+a.sort { |a, b| [a['foo'], a['bar']] <=> [b['foo'], b['bar']] }
 
-bundle update
+Object#instance_variable_get
