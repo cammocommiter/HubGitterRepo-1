@@ -1,3 +1,0 @@
-gem 'unf' 
-
-@_current_user ||= {SOMETHING}
