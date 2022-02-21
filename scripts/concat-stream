@@ -1,4 +1,0 @@
-gem uninstall rmagick
-bundle install
-
-*
