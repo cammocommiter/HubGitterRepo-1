@@ -1,4 +1,0 @@
-Account.where(id: [1,2])
-  task :my_task do
-    run "my_command"
-  end
