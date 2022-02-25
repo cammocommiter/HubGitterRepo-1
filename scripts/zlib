@@ -1,3 +1,0 @@
-Model.created_at.strftime("%FT%T")
-
-routes.rb
