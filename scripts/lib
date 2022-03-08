@@ -1,6 +1,0 @@
-allow(MyMod::Utils).to receive(:find_x).and_return({something: 'testing'})
-
-if __FILE__ == $0
-    foo()
-    bar()
-end
