@@ -1,2 +1,0 @@
-date_select
-find('#some_button').find(:xpath,".//..").fill_in "Name:", :with => name
