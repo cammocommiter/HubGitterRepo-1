@@ -1,2 +1,0 @@
-(end_date - start_date).to_i
-Array#join
