@@ -1,8 +1,0 @@
-gem install debugger-linecache -v '1.1.2' -- --with-ruby-include=$rvm_path/src/ruby-1.9.3-p286/
-
->> foo = [1, 2, 3]
-=> [1, 2, 3]
->> goo = [2, 3, 4]
-=> [2, 3, 4]
->> foo - goo
-=> [1]
