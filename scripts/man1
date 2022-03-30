@@ -1,3 +1,0 @@
-colour = "%06x" % (rand * 0xffffff)
-
-git://github.com/Dakuan/client_side_validations.git
