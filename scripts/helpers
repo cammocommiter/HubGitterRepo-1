@@ -1,3 +1,0 @@
-parameters
-DateTime.now.midnight
-DateTime.now.beginning_of_day
