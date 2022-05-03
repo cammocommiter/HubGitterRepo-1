@@ -1,3 +1,0 @@
-a.sort { |a, b| [a['foo'], a['bar']] <=> [b['foo'], b['bar']] }
-
-Object#instance_variable_get
