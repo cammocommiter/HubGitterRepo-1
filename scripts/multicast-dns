@@ -1,3 +1,0 @@
-include ActionView::Helpers
-
-around_*
