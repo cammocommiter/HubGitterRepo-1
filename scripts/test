@@ -1,7 +1,0 @@
-"hello1 hello2".scan(/(hello\d+)/)   # => [["hello1"], ["hello2"]]
-
-"hello1 hello2".scan(/(hello\d+)/).each do|m|
-  puts m
-end
-
-nil
