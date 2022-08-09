@@ -1,3 +1,0 @@
-/usr/local
-output = `ls`
-p output
